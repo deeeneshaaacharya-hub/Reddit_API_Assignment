@@ -1,0 +1,1111 @@
+title,score,upvote_ratio,num_comments,author,subreddit,url,permalink,created_utc,is_self,selftext,flair,domain,search_query
+Ask Anything Monday - Weekly Thread,1,1.0,0,AutoModerator,learnpython,https://www.reddit.com/r/learnpython/comments/1ogzyrk/ask_anything_monday_weekly_thread/,https://www.reddit.com/r/learnpython/comments/1ogzyrk/ask_anything_monday_weekly_thread/,1761523253,True,"Welcome to another /r/learnPython weekly ""Ask Anything\* Monday"" thread
+
+Here you can ask all the questions that you wanted to ask but didn't feel like making a new thread.
+
+\* It's primarily intended for simple questions but as long as it's about python it's allowed.
+
+If you have any suggestions or questions about this thread use the message the moderators button in the sidebar.
+
+**Rules:**
+
+* Don't downvote stuff - instead explain what's wrong with the comment, if it's against the rules ""re...",,self.learnpython,
+"What does ""pass"" or ""passing"" mean in Python?",17,0.73,39,CretaMaltaKano,learnpython,https://www.reddit.com/r/learnpython/comments/1oguu2w/what_does_pass_or_passing_mean_in_python/,https://www.reddit.com/r/learnpython/comments/1oguu2w/what_does_pass_or_passing_mean_in_python/,1761510011,True,"I'm taking a Python course and the instructor frequently uses terms without explaining them. This time it's ""pass"" and ""passing."" I've Googled it, but the answers I'm getting don't seem to apply.  
+
+The statement below is talking about for loops:
+
+>In addition to passing the start and end numbers, you can also pass the number of numbers you want printed. Note that range will always start at 0 and go through one less than the value you pass it.
+
+Eh? I'm assuming he means ""input"" but then the l...",,self.learnpython,
+How to split alternate rows into 2 dataframes?,2,1.0,0,d8gfdu89fdgfdu32432,learnpython,https://www.reddit.com/r/learnpython/comments/1ogyn6l/how_to_split_alternate_rows_into_2_dataframes/,https://www.reddit.com/r/learnpython/comments/1ogyn6l/how_to_split_alternate_rows_into_2_dataframes/,1761519648,True,"Say I have a dataframe like this
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+How do I separate them into 2 dataframes like this?
+
+df1
+
+1
+
+3
+
+5
+
+df2  
+2
+
+4
+
+6
+
+Edit: got this to work
+
+>`df1 = df.iloc[1::2]`
+
+>`df2 = df.iloc[::2]`",,self.learnpython,
+Help for Python and Selenium,0,0.5,1,Pleasant-Mess-6488,learnpython,https://www.reddit.com/r/learnpython/comments/1oh2r25/help_for_python_and_selenium/,https://www.reddit.com/r/learnpython/comments/1oh2r25/help_for_python_and_selenium/,1761531245,True,"Just finished with basics of Python and beginner projects of if 
+
+I wanted to do Selenium with python 
+Many suggested Course of Rahul Shetty but I don't have money to buy it 
+
+So I want guidance from where to learn it and how ",,self.learnpython,
+How do you learn Python?,16,0.7,50,AntonHughes,learnpython,https://www.reddit.com/r/learnpython/comments/1oghlnz/how_do_you_learn_python/,https://www.reddit.com/r/learnpython/comments/1oghlnz/how_do_you_learn_python/,1761475769,True,"I was told to start with Python if I wanted to learn how to program and I want to know how.
+
+I am starting my own social media site and am sick of wasting money on scams. Thank you for your help.",,self.learnpython,
+Does anyone use Match case?,2,1.0,9,Yelebear,learnpython,https://www.reddit.com/r/learnpython/comments/1ogxn66/does_anyone_use_match_case/,https://www.reddit.com/r/learnpython/comments/1ogxn66/does_anyone_use_match_case/,1761516990,True,"I think it looks neat and is very readable.
+
+I try looking up other people's code and I think there's only like one or two instances where someone used it.
+
+What's going on",,self.learnpython,
+requests.get() very slow compared to Chrome.,6,1.0,47,TinyMagician300,learnpython,https://www.reddit.com/r/learnpython/comments/1ogjdlq/requestsget_very_slow_compared_to_chrome/,https://www.reddit.com/r/learnpython/comments/1ogjdlq/requestsget_very_slow_compared_to_chrome/,1761481691,True,"    headers = {
+    ""User-Agent"": ""iusemyactualemail@gmail.com"",
+    ""Accept-Encoding"": ""gzip, deflate, br, zstd"" 
+    }
+    
+    downloadURL = f""https://www.sec.gov/Archives/edgar/full-index/{year}/QTR{quarter}/form.idx""
+    
+    
+    downloadFile = requests.get(downloadURL, headers=headers)
+
+  
+So I'm trying to requests.get this URL which takes approximately 43 seconds for a 200 (it's instantenous on Chrome, very fast internet). It is the SEC Edgar website for stocks. 
+
+I even tried using t...",,self.learnpython,
+"TensorFlow still not detecting GPU (RTX 3050, CUDA 12.7, TF 2.20.0)",1,1.0,0,el_houssem,learnpython,https://www.reddit.com/r/learnpython/comments/1ogxgdq/tensorflow_still_not_detecting_gpu_rtx_3050_cuda/,https://www.reddit.com/r/learnpython/comments/1ogxgdq/tensorflow_still_not_detecting_gpu_rtx_3050_cuda/,1761516493,True,"Hey everyone,  
+I’ve been trying to get TensorFlow to use my GPU on Windows, and even though everything seems installed correctly, it still shows 0 GPUs.
+
+Here’s what I did so far:
+
+**System setup**
+
+* Windows 11
+* RTX 3050 Laptop GPU
+* NVIDIA driver 566.36 (CUDA 12.7)
+* Anaconda3 (Python 3.13)
+* TensorFlow 2.20.0
+
+**Steps I followed**
+
+1. Installed TensorFlow : pip install tensorflow==2.20.0 
+2. Tried the new GPU extras, but it failed because of the `nvidia-nccl-cu12` dependency.pip install ...",,self.learnpython,
+I can't understand functions for the life of me.,52,0.75,92,Key-Set5659,learnpython,https://www.reddit.com/r/learnpython/comments/1og6ypa/i_cant_understand_functions_for_the_life_of_me/,https://www.reddit.com/r/learnpython/comments/1og6ypa/i_cant_understand_functions_for_the_life_of_me/,1761438244,True,"I know I can just ask chatgpt, but im genuinely trying to learn how to problem solve and figure out the syntax on my own as well. IM TRYING AS HARD AS POSSIBLE TO AVOID AI.
+
+for some reason I can't understand def and I don't know why, I got loops, lists, and dictionaries down in a day and now I can't figure out functions for the life of me. What I understand right now is that you have you put the variables inside the parenthesis or they can't be reused? That where im confused, when stuff goes...",,self.learnpython,
+Should I avoid query parameter in FastAPI?,5,0.86,3,Potential_Athlete238,learnpython,https://www.reddit.com/r/learnpython/comments/1ogkqgl/should_i_avoid_query_parameter_in_fastapi/,https://www.reddit.com/r/learnpython/comments/1ogkqgl/should_i_avoid_query_parameter_in_fastapi/,1761485603,True,"I have several endpoints that accept a single string. Is it ""bad"" to use a query parameter instead of creating a separate \`UpdateReport\` model?
+
+```
+@router.patch(""/reports/{report_id}"")
+def rename_report(
+        report_id: UUID,
+        report_name: str,
+        dao: BaseDAO = Depends(get_dao)
+):
+    """"""Rename report""""""
+    dao.update_row(""Reports"", {""report_name"": report_name}, report_id=report_id)
+    return {""success"": True}
+
+requests.patch(f""/reports/XXX/?new_name=Renamed Report"")
+```",,self.learnpython,
+Help With Determining North on Photos,0,0.5,10,General_Reneral,learnpython,https://www.reddit.com/r/learnpython/comments/1ogvgsr/help_with_determining_north_on_photos/,https://www.reddit.com/r/learnpython/comments/1ogvgsr/help_with_determining_north_on_photos/,1761511520,True,"I am a graduate student and part of my research involves analyzing hemiphotos (taken with a fisheye lens) for leaf area index with a program called HemiView. However, for that program to work properly, I need to know where North was on the picture. When I took my photos, I marked north with a pencil to make it easier for later. But part of the study involves using photos taken by a different student, who did not mark North on any of their photos. I do not have the time to retake these photos ...",,self.learnpython,
+Remove Page break if at start of a page in .docx,3,0.81,3,Objective-Industry37,learnpython,https://www.reddit.com/r/learnpython/comments/1ogm1xa/remove_page_break_if_at_start_of_a_page_in_docx/,https://www.reddit.com/r/learnpython/comments/1ogm1xa/remove_page_break_if_at_start_of_a_page_in_docx/,1761489006,True,"Problem:
+I’m generating a Microsoft Word document using a Jinja MVT template.
+The template contains a dynamic table that looks roughly like this:
+
+<!-- Table start -->
+{% for director in director_details %}
+  <table>
+    <tr><td>{{ director.name }}</td></tr>
+    <tr><td>{{ director.phonenumber }}</td></tr>
+  </table>
+{% endfor %}
+<!-- Table end -->
+
+After table, I have a manual page break in the document.
+
+Issue:
+Since the number of tables is dynamic (depends on the payload), the document can...",,self.learnpython,
+WebAuthn Passwordless Auth with FastAPI + JWT Session Management,0,0.5,0,the_milkman01,learnpython,https://www.reddit.com/r/learnpython/comments/1ogt2hi/webauthn_passwordless_auth_with_fastapi_jwt/,https://www.reddit.com/r/learnpython/comments/1ogt2hi/webauthn_passwordless_auth_with_fastapi_jwt/,1761505758,True,"Hi everyone!
+
+I previously shared my example app with  **FastAPI WebAuthn example** for passwordless login using biometrics (Touch ID, Face ID, Windows Hello) and security keys
+
+Since then, I’ve added **JWT session management** so that once a user logs in with their device, they can maintain a persistent session via **HTTP-only cookies** (`access_token` and `refresh_token`). This makes it possible to:
+
+* Stay logged in securely without re-authenticating every request
+* Access protected API en...",,self.learnpython,
+How can i export a python project to web?,2,0.67,7,Least_Front_984,learnpython,https://www.reddit.com/r/learnpython/comments/1oglp6a/how_can_i_export_a_python_project_to_web/,https://www.reddit.com/r/learnpython/comments/1oglp6a/how_can_i_export_a_python_project_to_web/,1761488117,True,"i have a python project with pygame in it, and i still ain't got a clue how to even export it to web(im a beginner).",,self.learnpython,
+Python Picture Recognition Help,2,0.76,0,BeautifulOwl8067,learnpython,https://www.reddit.com/r/learnpython/comments/1oglke5/python_picture_recognition_help/,https://www.reddit.com/r/learnpython/comments/1oglke5/python_picture_recognition_help/,1761487770,True,"Im on a mac running the latest python version. Im making an automation bot that uses picture recognition to click on that specific button twice. But im not able to figure out how to do it. Ive created the code and it works well, just cant get ahold of the picture recognition part. The bot uses a screenshot that ive taken before and whenever it sees it on the specific page that it opens, then itll click on it. Is there anyone that can help me out with this?",,self.learnpython,
+Return statements inside if statements vs return [condition],7,0.69,54,PeriPeriAddict,learnpython,https://www.reddit.com/r/learnpython/comments/1oge1hf/return_statements_inside_if_statements_vs_return/,https://www.reddit.com/r/learnpython/comments/1oge1hf/return_statements_inside_if_statements_vs_return/,1761462119,True,"Hello! I'm on mobile so sorry for formatting.
+
+Generally, I do this:
+
+if x == y:
+
+    return True
+
+else:
+
+    return False
+
+
+But when looking at the code of people better than me, they typically do this:
+
+return x == y
+
+Is there an accepted best practice around this, and if so why?",,self.learnpython,
+Where do I start in pygame? What projects should I make?,1,0.56,5,Key_Art_5590,learnpython,https://www.reddit.com/r/learnpython/comments/1ogqmpk/where_do_i_start_in_pygame_what_projects_should_i/,https://www.reddit.com/r/learnpython/comments/1ogqmpk/where_do_i_start_in_pygame_what_projects_should_i/,1761500062,True,"I just started learning real python like a month ago and I learnt about pygame, I just started using it yesterday. I'm confused where to start in pygame. I mean I understand it and can make flappy bird in it, but I don't know what I should make for a beginner coder. I know not to make my projects too big, but I don't rlly know what too big is.",,self.learnpython,
+Needing help with converting .xml to .gdf using osmnx,1,0.6,5,DiegoS_2023,learnpython,https://www.reddit.com/r/learnpython/comments/1ogq980/needing_help_with_converting_xml_to_gdf_using/,https://www.reddit.com/r/learnpython/comments/1ogq980/needing_help_with_converting_xml_to_gdf_using/,1761499193,True,"**Hello!** I've been wanting to visualize OpenStreetMap XML files with Python using geopandas. However, I noticed geopandas does not support .osm or .xml, only .gdf files. So I decided to use osmnx (because I tried to install pyrosm but couldn't) and everything went smoothly for a bit, but now it's just broken and I don't know why.
+
+I think it might be that I converted .osm to .xml (for osmnx) by just changing the file extension, but [according to GIS Stack Exchange](https://gis.stackexchange...",,self.learnpython,
+Problem solving help,2,0.67,4,Any_Amount4156,learnpython,https://www.reddit.com/r/learnpython/comments/1ogkmhh/problem_solving_help/,https://www.reddit.com/r/learnpython/comments/1ogkmhh/problem_solving_help/,1761485306,True,So I'm doing A level computer science and I've run into a problem i realised some time ago. I've been doing on and off coding for 2-3 years but want to take it seriously but i'm really bad at problem solving. How can I get better should I research DSA or get better at using different data structures I really don't know,,self.learnpython,
+vyperdatum package to implement NOAA VDATUM,1,0.67,0,deltageomarine,learnpython,https://www.reddit.com/r/learnpython/comments/1ogockp/vyperdatum_package_to_implement_noaa_vdatum/,https://www.reddit.com/r/learnpython/comments/1ogockp/vyperdatum_package_to_implement_noaa_vdatum/,1761494601,True,"SOLVED: I found the most recent supported version of VDATUM [here](https://vdatum.noaa.gov/download/data/) that is compatible with the Path 1 method using the NOAA vyperdatum. It is sensitive to the specific version named vdatum\_all\_20220511.zip related to the build date 5/11/2022.
+
+Question below:
+
+Does anyone have any pointers on getting vyperdatum set up in python, specifically conda? I have tried 2 paths. I followed steps to create an environment in conda from the prompt, installing the...",,self.learnpython,
+After cs50p,4,0.75,2,DrawEnvironmental794,learnpython,https://www.reddit.com/r/learnpython/comments/1ogfk4y/after_cs50p/,https://www.reddit.com/r/learnpython/comments/1ogfk4y/after_cs50p/,1761468082,True,So I'm doing cs50p course rn and once im done I would like to learn how to use GitHub without the begginer tools u get with cs50p is there any good videos out there that y'all can recommend me to watch to know how to use github,,self.learnpython,
+New to the python game,2,0.67,14,moon_man44,learnpython,https://www.reddit.com/r/learnpython/comments/1ogf0tf/new_to_the_python_game/,https://www.reddit.com/r/learnpython/comments/1ogf0tf/new_to_the_python_game/,1761466000,True,"Hey guys, i've recently started college and im studying informatica. im in my first semester and im learning how to program with python. i make use of github as study materials and my do my assignments through codegrade. im really eager to learn but im having trouble to actually implement what i've learn and start coding and i find myself each time going back to chatgpt to write the code for me. i've tried youtube courses and those helped a bit more in terms of understating but not really to ...",,self.learnpython,
+Do you bother with a main() function,59,0.82,98,Yelebear,learnpython,https://www.reddit.com/r/learnpython/comments/1ofrbqu/do_you_bother_with_a_main_function/,https://www.reddit.com/r/learnpython/comments/1ofrbqu/do_you_bother_with_a_main_function/,1761398252,True,"The material I am following says this is good practice, like a simplified sample:
+
+    def main():
+        name = input(""what is your name? "")
+        hello(name)
+
+    def hello(to):
+        print(f""Hello {to}"")
+
+    main()
+
+Now, I don't presume to know better. but I'm also using a couple of other materials, and none of them really do this. And personally I find this just adds more complication for little benefit.
+
+Do you do this?
+
+Is this standard practice?",,self.learnpython,
+A better way to implement a Pathlib path with nonexistent subfolders?,3,0.81,4,rickson56,learnpython,https://www.reddit.com/r/learnpython/comments/1ogb4dd/a_better_way_to_implement_a_pathlib_path_with/,https://www.reddit.com/r/learnpython/comments/1ogb4dd/a_better_way_to_implement_a_pathlib_path_with/,1761451389,True,"I have the following path on my system:  
+`path2 = Path(""/media/SubDir/a/b/c/d/e/f/g.txt"")`
+
+**Folder d** represents the point at which a symbolic link, i.e. symbolic folder e, is placed at, that links to other paths, and performs a 'mock' duplicate of system files, that allows one to rename them.  
+
+I came up with the following that, detects whether g.txt doesn't exist, and from there keeps stepping back through the subfolders, until it encounters a subfolder that exists, and attempts to rep...",,self.learnpython,
+pyinstaller mac apps don't work!!,0,0.4,1,Dangerous-Rooster121,learnpython,https://www.reddit.com/r/learnpython/comments/1ogfalb/pyinstaller_mac_apps_dont_work/,https://www.reddit.com/r/learnpython/comments/1ogfalb/pyinstaller_mac_apps_dont_work/,1761467060,True,"i've been trying to figure this out for hours 😭 i'm using pyinstaller to try and clear the cache for a directory on my laptop. the unix executable file works exactly as it's supposed to, but when i do --windowed to create an app, the app just bounces in my dock and doesn't do anything. my python program uses tkinter, and i've seen that for some reason that causes issues for pyinstaller on mac but i can't get it to work for the life of me. i just reinstalled pyinstaller just in case my origina...",,self.learnpython,
+py command works in command line but python command does not,4,0.83,18,standardtrickyness1,learnpython,https://www.reddit.com/r/learnpython/comments/1og5x0z/py_command_works_in_command_line_but_python/,https://www.reddit.com/r/learnpython/comments/1og5x0z/py_command_works_in_command_line_but_python/,1761435186,True,"Why is this and is there a way to make it so that python command works as well I'm definitely gonna forget the next time I use python.
+
+  
+C:\\Users\\user\\Downloads>python
+
+The system cannot execute the specified program.
+
+C:\\Users\\user\\Downloads>py
+
+Python 3.9.6 (tags/v3.9.6:db3ff76, Jun 28 2021, 15:26:21) \[MSC v.1929 64 bit (AMD64)\] on win32
+
+Type ""help"", ""copyright"", ""credits"" or ""license"" for more information.
+
+\>>>
+
+",,self.learnpython,
+why wont cube work,3,0.71,20,Recent-Ambition4631,learnpython,https://www.reddit.com/r/learnpython/comments/1og8pit/why_wont_cube_work/,https://www.reddit.com/r/learnpython/comments/1og8pit/why_wont_cube_work/,1761443592,True,"I am getting ready to castrate myself. It should open a cube with the gimpwold.png texture that slowly rotates, but it just opening up blank window pls help theres no error mesage
+
+    import pygame as pg
+    from OpenGL.GL import *
+    import numpy as np
+    import ctypes
+    from OpenGL.GL.shaders import compileProgram, compileShader
+    import pyrr
+    
+    
+    class Cube:
+        def __init__(self, position, eulers):
+            self.position = np.array(position, dtype=np.float32)
+      ...",,self.learnpython,
+What's next after python basics,18,0.72,33,Ill-Statistician-761,learnpython,https://www.reddit.com/r/learnpython/comments/1ofp505/whats_next_after_python_basics/,https://www.reddit.com/r/learnpython/comments/1ofp505/whats_next_after_python_basics/,1761391529,True,Hey i am a 17 year old student. My dream is to land on a high paying software job. i am preparing for that now on .i learned python basics and i am doing some problems in codewars but now i am stuck what to learn next ?,,self.learnpython,
+How to add python to path and how to use it in commandline/powershell?,1,0.6,13,standardtrickyness1,learnpython,https://www.reddit.com/r/learnpython/comments/1og57n4/how_to_add_python_to_path_and_how_to_use_it_in/,https://www.reddit.com/r/learnpython/comments/1og57n4/how_to_add_python_to_path_and_how_to_use_it_in/,1761433201,True,"So the answer I've been getting is  add python to environment variables  which I have done   
+
+But I still get the error  when running from user/downloads
+
+`python -c ""from pdf2docx import Converter""`
+
+`The system cannot execute the specified program.`
+
+p.s why are we banning images makes things so much more complicated?",,self.learnpython,
+Are UIs normally this time consuming?,48,0.92,31,Substantial-Ad5111,learnpython,https://www.reddit.com/r/learnpython/comments/1ofe3ww/are_uis_normally_this_time_consuming/,https://www.reddit.com/r/learnpython/comments/1ofe3ww/are_uis_normally_this_time_consuming/,1761352720,True,"I recently built a genetic algorithm to automate some stuff for my job, and I’m getting around to the UI. So far I’m around halfway done and I’m at around 800 lines of code, once I’m done it’s going to almost as many lines as the genetic algorithm itself. Are UI’s normally this time consuming? Given, I’m using tkinter and there are a lot of drop down menus and text boxes, I just didn’t think it would be this much. ",,self.learnpython,
+"Best practice for checking if an input is a folder and not a single file, Windows and MacOS",2,0.59,11,nirbyschreibt,learnpython,https://www.reddit.com/r/learnpython/comments/1oftmkm/best_practice_for_checking_if_an_input_is_a/,https://www.reddit.com/r/learnpython/comments/1oftmkm/best_practice_for_checking_if_an_input_is_a/,1761404269,True,"For work I wrote a small tool that regroups pages of PDF files and sorts them to the final destination. It runs in a console and requires the user to give the directory. As I wanted to keep it simple it doesn’t open the explorer or anything, just copy and paste the directory. It checks if the input exists. Now, it’s possible to paste in the path of a single file and not a folder. This will be seen as correct because the path exists. For our use case that doesn’t matter much as only a couple i...",,self.learnpython,
+Trying to send push notifications without internet?,1,0.6,10,NotWr3nch,learnpython,https://www.reddit.com/r/learnpython/comments/1ofwylg/trying_to_send_push_notifications_without_internet/,https://www.reddit.com/r/learnpython/comments/1ofwylg/trying_to_send_push_notifications_without_internet/,1761412348,True,"I'm currently building a project for raspberry pi that I want to send push notifications to my android phone. Unfortunately I need this to work without connecting to an outside server like pushover or Pushbullet.
+
+I found some info about bleak (which im already using) being able to send push notifications but I don't love the lack of security from ble. I'm also using ble to connect to a peripheral and I'm pretty sure BlueZ doesn't allow multiple connections at once.
+
+My current thought proces...",,self.learnpython,
+Will MOOC 2023 be fine or should I switch to 2025?,0,0.43,16,Nayfonn,learnpython,https://www.reddit.com/r/learnpython/comments/1oft9yq/will_mooc_2023_be_fine_or_should_i_switch_to_2025/,https://www.reddit.com/r/learnpython/comments/1oft9yq/will_mooc_2023_be_fine_or_should_i_switch_to_2025/,1761403394,True,Basically I started the 2023 course and then realise there was a more updated version. Should I just carry on with the 2023 course?,,self.learnpython,
+Drawpyo - drawing a straight line,2,0.76,1,Panatism,learnpython,https://www.reddit.com/r/learnpython/comments/1ofn5rr/drawpyo_drawing_a_straight_line/,https://www.reddit.com/r/learnpython/comments/1ofn5rr/drawpyo_drawing_a_straight_line/,1761384053,True,"I find the project wonderful, thought I'm scratching my head because it seems impossible to have my python code draw a straight connector.
+
+I read the docs, I had a look at the source code, I even did a small test with drawio to see in the XML how the connector would be described by [Draw.io](http://Draw.io) but I failed.
+
+I read the way to go should be by using waypoints, but I set two waypoints right where I positioned  the objects I want to connect and nothing.
+
+I know there is drawio-diag...",,self.learnpython,
+Scraping with Python: Looking for ideas,0,0.5,7,Professor_Snipe,learnpython,https://www.reddit.com/r/learnpython/comments/1ofq36s/scraping_with_python_looking_for_ideas/,https://www.reddit.com/r/learnpython/comments/1ofq36s/scraping_with_python_looking_for_ideas/,1761394698,True,Hi All! I'm teaching a course in corpus linguistics and we've been messing around with different kinds of data and approaches to data collection. I have OK-ish experience with Python and I showed my students how to scrape Reddit with PRAW and build relatively (locally) representative corpora for recent phenomena/events. We did it all through Colab and that class went extremely well (despite all my students being intermediate linguists with relatively little programming experience). I showed t...,,self.learnpython,
+Python equivalent to node-cache?,2,0.76,1,sgofferj,learnpython,https://www.reddit.com/r/learnpython/comments/1ofm4rk/python_equivalent_to_nodecache/,https://www.reddit.com/r/learnpython/comments/1ofm4rk/python_equivalent_to_nodecache/,1761380094,True,"Morning!
+
+In my project [https://github.com/sgofferj/tak-feeder-aisstream.io](https://github.com/sgofferj/tak-feeder-aisstream.io) , I'm using node-cache to build a complete dataset for each vessel from different messages. I want to rewrite that project in Python and I was wondering if there is a similar library for Python.
+
+\-Stefan",,self.learnpython,
+the first time i actually understood what my code was doing,93,0.83,41,Top-Candle1296,learnpython,https://www.reddit.com/r/learnpython/comments/1oev2kr/the_first_time_i_actually_understood_what_my_code/,https://www.reddit.com/r/learnpython/comments/1oev2kr/the_first_time_i_actually_understood_what_my_code/,1761304912,True,"A few weeks ago, i was basically copy-pasting python snippets from tutorials and ai chats.
+
+then i decided to break one apart line by line actually run each piece through chatgpt and cosine CLI to see what failed.
+
+somewhere in the middle of fixing syntax errors and printing random stuff, it clicked. i wasn’t just “following code” anymore i was reading it. it made sense. i could see how one function triggered another.
+
+it wasn’t a huge project or anything, but that moment felt like i went fro...",,self.learnpython,
+Plot GPS trajectory,0,0.5,3,thegengar32,learnpython,https://www.reddit.com/r/learnpython/comments/1ofp7xd/plot_gps_trajectory/,https://www.reddit.com/r/learnpython/comments/1ofp7xd/plot_gps_trajectory/,1761391814,True,"Hi everyone!
+
+I have a set of GPS coordinates and I want to plot them to see the trajectory. The problem is I would like to have the GPS map in the background and not see the entire curve so I can distinguish cities and locations. It's basically for a paper, has anyone used something that works well for this type of plot?
+
+  
+Cheers!",,self.learnpython,
+How to install pip-tools globally in Linux?,1,0.6,6,at819,learnpython,https://www.reddit.com/r/learnpython/comments/1ofoqwm/how_to_install_piptools_globally_in_linux/,https://www.reddit.com/r/learnpython/comments/1ofoqwm/how_to_install_piptools_globally_in_linux/,1761390103,True,"Trying to install pip-tools globally with `pip install` and this message appears:
+
+    To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+
+Followed the instructions with `sudo apt install python3-pip-tools` but this error returns:  
+`E: Unable to locate package python3-pip-tools`
+
+How to resolve this?",,self.learnpython,
+Are python servers broken? Can't access pip.,2,0.58,14,Baka_TheMittai,learnpython,https://www.reddit.com/r/learnpython/comments/1ofn680/are_python_servers_broken_cant_access_pip/,https://www.reddit.com/r/learnpython/comments/1ofn680/are_python_servers_broken_cant_access_pip/,1761384105,True,"I am not sure where to ask.  
+But I can't access the PyPI servers and I can't use pip.
+
+When I checked if I can access the website( [pypi.org](http://pypi.org) ), I can't either. I tried [python.org](http://python.org), and I couldn't access it either.  
+Their subdomains do work tho like:  
+\- [docs.pypi.org](http://docs.pypi.org)  
+\- [wiki.python.org](http://wiki.python.org)  
+\- [status.python.org](http://status.python.org)
+
+pinging the domains do work.
+
+I also tried different networks (Wi...",,self.learnpython,
+Why python heapq module hides the implementation of max heap?,1,0.57,1,inobody_somebody,learnpython,https://www.reddit.com/r/learnpython/comments/1oflrhq/why_python_heapq_module_hides_the_implementation/,https://www.reddit.com/r/learnpython/comments/1oflrhq/why_python_heapq_module_hides_the_implementation/,1761378633,True,I'm working on a task which requires a max heap. Now in python we only have min heap but we can make it a max heap using - but it only works for numbers and in dealing with strings. I looked into this and found there is _heapify_max() _heapop_max() which are internal max heap implementations and are not laited in the API. Why gatekeep max heap. Isn't this the opposing of what python should do (everything is available you just need to import)? ,,self.learnpython,
+http requests code giving false positives for every requests made,0,0.36,24,Entire-Comment8241,learnpython,https://www.reddit.com/r/learnpython/comments/1ofw31x/http_requests_code_giving_false_positives_for/,https://www.reddit.com/r/learnpython/comments/1ofw31x/http_requests_code_giving_false_positives_for/,1761410261,True,"code below shows an enumeration of users in social media, e-commerces... but apparently for every domain I have tried it gives me false positives, I know this because I have tried some of my own and some from my friends, but it still gives false positives. I know it's false positives because I'm totally aware on which platform they are registered so it is indeed false positive. So how can I change this to positive??
+
+PS: I changed the emails so any of you can screw me or my friends.
+
+    impo...",,self.learnpython,
+Problem with pip,1,0.6,7,MajesticBullfrog69,learnpython,https://www.reddit.com/r/learnpython/comments/1ofknm0/problem_with_pip/,https://www.reddit.com/r/learnpython/comments/1ofknm0/problem_with_pip/,1761374366,True,"Hi, for the past few days I've been working on a small project in VSCode where I was recommended to create a virtual environment to isolate the dependencies, which requires switching the interpreter to the virtual one.  
+  
+During this time, I installed some packages using the pip within the venv, and it worked like usual, however, after I was done with this project, I deactivated the venv and deleted it from my system, then switched back to using the global interpreter, I suddenly cannot ins...",,self.learnpython,
+my code isnt working,0,0.27,8,Only-Name3248,learnpython,https://www.reddit.com/r/learnpython/comments/1ofrouu/my_code_isnt_working/,https://www.reddit.com/r/learnpython/comments/1ofrouu/my_code_isnt_working/,1761399264,True,"I made this code so if snake touches the snake will increase in sixe and the leaves move somewhere else again but it isnt working. Can you tell me the error: 
+
+    if snake.distance(leaf)  < 20:
+         leaf_place()
+         snake.shapesize(stretch_len=snake.shapesize()[0] + 0.1,
+                    stretch_wid=snake.shapesize()[1] + 0.1)
+    
+    
+         leaves_eaten +=1",,self.learnpython,
+"Trying to get all the methods and functions of a data type (eg str, int, list)",0,0.5,35,stephendera,learnpython,https://www.reddit.com/r/learnpython/comments/1ofipwl/trying_to_get_all_the_methods_and_functions_of_a/,https://www.reddit.com/r/learnpython/comments/1ofipwl/trying_to_get_all_the_methods_and_functions_of_a/,1761367369,True,"Couldn't figure out functions and methods, so I created a file to help me print out all the methods and functions of a data type (I used list as the data type), excluding magic methods (the \_\_\*\_\_ ones). The method part seems to be working fine but the function part isn't printing out. I wonder if I skipped anything 
+
+    import
+     builtins, inspect
+    
+    
+    #
+    for getting all list methods
+    for
+     f 
+    in
+     dir(list): 
+        
+    if
+     f.startswith(""_"") or f.starts...",,self.learnpython,
+"Large Enterprise App Code Setup - Monorepo, uv, pyright, pytest - best practices?",3,0.67,7,faivre,learnpython,https://www.reddit.com/r/learnpython/comments/1of96ci/large_enterprise_app_code_setup_monorepo_uv/,https://www.reddit.com/r/learnpython/comments/1of96ci/large_enterprise_app_code_setup_monorepo_uv/,1761339289,True,"I want to build a Python large scale enterprise ""app"" - consisting of multiple deployable apps/jobs, and shareable base libraries (business domain, db access, core utils). My naive, new to Python, C# experienced brain imagines this for the set of ""packages"" I'd need:
+
+* in dependency order - higher up refs lower down
+* assume within in leaf node, there is src/, tests/
+
+&#8203;
+
+    - acme (org-name)
+        - apps (user facing apps)
+            - app-1
+            - app-2
+        - jobs
+     ...",,self.learnpython,
+Recursively exclude all 'None' fields in a deeply nested Pydantic model?,0,0.5,1,ataltosutcaja,learnpython,https://www.reddit.com/r/learnpython/comments/1of5ih3/recursively_exclude_all_none_fields_in_a_deeply/,https://www.reddit.com/r/learnpython/comments/1of5ih3/recursively_exclude_all_none_fields_in_a_deeply/,1761330571,True,"So, I am ware of `exclude_none`, but it works on per-model-basis, meaning that in the case deeply nested models, you would have to add this to every submodel. In certain situations, especially working with 3rd party provided models, this is not really an option. Is there a workaround to this limitation?",,self.learnpython,
+Which is the most important language for a backend developer?,0,0.48,16,OkProperty5718,learnpython,https://www.reddit.com/r/learnpython/comments/1of4que/which_is_the_most_important_language_for_a/,https://www.reddit.com/r/learnpython/comments/1of4que/which_is_the_most_important_language_for_a/,1761328783,True,"hello everyone I started recently web backend developer course to where should I start please help me  
+I couldn't figure out how to strat which language choose first please suggest me 
+And how much time will be required to learn it completely?",,self.learnpython,
+"I built a production-ready Django/DRF Boilerplate with Custom User Auth, JWT, and Spectaular Docs feedback welcome!",0,0.5,0,niameyy,learnpython,https://www.reddit.com/r/learnpython/comments/1of48ey/i_built_a_productionready_djangodrf_boilerplate/,https://www.reddit.com/r/learnpython/comments/1of48ey/i_built_a_productionready_djangodrf_boilerplate/,1761327600,True," Hey,
+
+I spent a while cleaning up my personal project starter and decided to open-source it as **drf-boilerplate**. I'm sharing it because I'm tired of rewriting the same core authentication logic for every new DRF API.
+
+**What it solves:**
+
+1. **The Custom User Pain:** Fully configured `AbstractUser` model with login via either `email` OR `username`.
+2. **Auth Separation:** Integrated `djangorestframework-simplejwt` with pre-built endpoints for token refresh/blacklist.
+3. **Deployment Heada...",,self.learnpython,
+"python projects: always have to ""relaunch terminal""",5,0.78,2,spurius_tadius,learnpython,https://www.reddit.com/r/learnpython/comments/1oetevr/python_projects_always_have_to_relaunch_terminal/,https://www.reddit.com/r/learnpython/comments/1oetevr/python_projects_always_have_to_relaunch_terminal/,1761299092,True,"This is not a big deal but it kind of bugs me and I would like know how others deal with it.
+
+When I work with python projects they always have `.venv` folder in the project root. I navigate to my project directory in the command line and type `code` .
+
+Vscode opens and does it's stuff, which includes opening a terminal.
+
+The terminal does not automatically activate the venv, but the python extension *sort-of knows that* because it gives me a little warning...
+
+[It wants me to relaunch the te...",,self.learnpython,
+"Weekly Entering & Transitioning - Thread 20 Oct, 2025 - 27 Oct, 2025",22,0.88,21,AutoModerator,datascience,https://www.reddit.com/r/datascience/comments/1oba336/weekly_entering_transitioning_thread_20_oct_2025/,https://www.reddit.com/r/datascience/comments/1oba336/weekly_entering_transitioning_thread_20_oct_2025/,1760932906,True," 
+
+Welcome to this week's entering & transitioning thread! This thread is for any questions about getting started, studying, or transitioning into the data science field. Topics include:
+
+* Learning resources (e.g. books, tutorials, videos)
+* Traditional education (e.g. schools, degrees, electives)
+* Alternative education (e.g. online courses, bootcamps)
+* Job search questions (e.g. resumes, applying, career prospects)
+* Elementary questions (e.g. where to start, what next)
+
+While you wait fo...",,self.datascience,
+Anyone looking to read the third edition of Deep Learning With Python?,15,1.0,1,yaymayhun,datascience,https://www.reddit.com/r/datascience/comments/1ogwru2/anyone_looking_to_read_the_third_edition_of_deep/,https://www.reddit.com/r/datascience/comments/1ogwru2/anyone_looking_to_read_the_third_edition_of_deep/,1761514766,True,The book is now available to read online for free: https://deeplearningwithpython.io/chapters/,Education,self.datascience,
+The Great Stay — Here’s the New Reality for Tech Workers,69,0.93,24,KitchenTaste7229,datascience,https://www.interviewquery.com/p/the-great-stay-tech-workers-ai-fear,https://www.reddit.com/r/datascience/comments/1of2sfs/the_great_stay_heres_the_new_reality_for_tech/,1761324293,False,Do you think you're part of this new phenomenon called The Great Stay?,Discussion,interviewquery.com,
+Any other free options that are similar to ShotBot?,9,0.8,6,Party_Bus_3809,datascience,https://youtu.be/H3nGXVSQww8?si=7qwcbRtpG5tZMwLD,https://www.reddit.com/r/datascience/comments/1oehj29/any_other_free_options_that_are_similar_to_shotbot/,1761259418,False,,Tools,youtu.be,
+What’s next for a 11 YOE data scientist?,235,0.94,83,appleciderv,datascience,https://www.reddit.com/r/datascience/comments/1od5zca/whats_next_for_a_11_yoe_data_scientist/,https://www.reddit.com/r/datascience/comments/1od5zca/whats_next_for_a_11_yoe_data_scientist/,1761133551,True,"Hi folks,
+Hope you’re having a great day wherever you are in the world.
+
+Context:
+I’ve been in the data science industry for the past 11 years. I started my career in telecom, where I worked extensively on time series analysis and data cleaning using R, Java, and Pig.
+
+After about two years, I landed my first “data scientist” role in a bank, and I’ve been in the financial sector ever since. Over time, I picked up Python, Spark, and TensorFlow to build ML models for marketing analytics and rec...",Discussion,self.datascience,
+Create stable IDs in DBT,6,0.88,5,Unhappy_Technician68,datascience,https://www.reddit.com/r/datascience/comments/1ode6j8/create_stable_ids_in_dbt/,https://www.reddit.com/r/datascience/comments/1ode6j8/create_stable_ids_in_dbt/,1761152941,True,I'm creating a table for managing custoemrs between different locations and uniting their profiles at various outlets for an employer.  I've been doing more modelling in my career than ETL stuff.  I know SQL pretty well but I'm struggling a bit to set up the DBT table in a way where it can both update daily AND maintain stable IDs.  It overrights them.  We can set up github actions but I'm not really sure what would be the appropriate way to solve this issue.,Tools,self.datascience,
+Erdos: open-source IDE for data science,305,0.96,66,SigSeq,datascience,https://i.redd.it/0m7tebv67hwf1.png,https://www.reddit.com/r/datascience/comments/1ocenxj/erdos_opensource_ide_for_data_science/,1761057368,False,"After a few months of work, we’re excited to launch [Erdos](https://www.lotas.ai/erdos) \- a secure, AI-powered data science IDE, all open source! Some reasons you might use it over VS Code:
+
+* An AI that searches, reads, and writes all common data science file formats, with special optimizations for editing Jupyter notebooks
+* Built-in Python, R, and Julia consoles accessible to the user and AI
+* Single-click sign in to a secure, zero data retention backend; or users can bring their own keys...",Projects,i.redd.it,
+Meet the New Buzzword Behind Every Tech Layoff — From Salesforce to Meta,18,0.77,10,nullstillstands,datascience,https://www.interviewquery.com/p/ai-layoffs-buzzword-tech-industry,https://www.reddit.com/r/datascience/comments/1ocgpac/meet_the_new_buzzword_behind_every_tech_layoff/,1761062064,False,,Discussion,interviewquery.com,
+Feeling like I’m falling behind on industry standards,243,0.94,79,xCrek,datascience,https://www.reddit.com/r/datascience/comments/1obvzq9/feeling_like_im_falling_behind_on_industry/,https://www.reddit.com/r/datascience/comments/1obvzq9/feeling_like_im_falling_behind_on_industry/,1760999551,True,"I currently work as a data scientist at a large U.S. bank, making around $182K. The compensation is solid, but I’m starting to feel like my technical growth is being stunted.
+
+A lot of our codebase is still in SAS (which I struggle to use), though we’re slowly transitioning to Python. We don’t use version control, LLMs, NLP, or APIs — most of the work is done in Jupyter notebooks. The modeling is limited to logistic and linear regressions, and collaboration happens mostly through email or sha...",Discussion,self.datascience,
+How many peoples' days were upset by this today?,382,0.97,21,ElectrikMetriks,datascience,https://i.redd.it/0fi89gqthbwf1.png,https://www.reddit.com/r/datascience/comments/1obr0ve/how_many_peoples_days_were_upset_by_this_today/,1760988178,False,,Monday Meme,i.redd.it,
+Communities / forums / resources for building neural networks,4,0.75,3,JimBeanery,datascience,https://www.reddit.com/r/datascience/comments/1obn0tc/communities_forums_resources_for_building_neural/,https://www.reddit.com/r/datascience/comments/1obn0tc/communities_forums_resources_for_building_neural/,1760977777,True,"Hoping to compile a list of resources / communities that are specifically geared towards training large neural networks. Discussions / details around architecture, embedding strategies, optimization, etc are along the lines of what I’m looking for. ",Discussion,self.datascience,
+Do we still need Awesome lists now that we have LLMs like ChatGPT?,0,0.26,17,DeepAnalyze,datascience,https://www.reddit.com/r/datascience/comments/1oc8xij/do_we_still_need_awesome_lists_now_that_we_have/,https://www.reddit.com/r/datascience/comments/1oc8xij/do_we_still_need_awesome_lists_now_that_we_have/,1761041110,True,"Hi folks!
+
+Let's talk about Awesome lists (curated collections of resources and tools) and what's happening to them now with  LLMs like ChatGPT and Claude around.
+
+I'm constantly impressed by how quickly LLMs can generate answers and surface obscure tools, but I also deeply respect the human-curated, battle-tested reliability of a good Awesome list. Let me be clear: I'm not saying they're obsolete. I genuinely value the curation and reliability they offer, which LLMs often lack.
+
+So, I'm genu...",Discussion,self.datascience,
+"How to perform synthetic control for multiple treated units? What are the things to keep in mind while performing it? Also, what python package i could use? Also have questions about metrics",9,0.91,3,Starktony11,datascience,https://www.reddit.com/r/datascience/comments/1obad7k/how_to_perform_synthetic_control_for_multiple/,https://www.reddit.com/r/datascience/comments/1obad7k/how_to_perform_synthetic_control_for_multiple/,1760933823,True,"
+Hi
+I have never done Synthetic control, i want to work on a small project (like small data. My task is to find incremental effect), i have a few treatment units, have multiple units as a control (which includes some as major/anchor markets).
+
+So questions are below:
+
+1. I know basic understanding of SCM but never used it, i know you get to optimize control units for a single treatment unit, but how do you perform the test when you have multiple treatments units? Do you build synthetic for ea...",Discussion,self.datascience,
+Anyone else tired of the non-stop LLM hype in personal and/or professional life?,511,0.95,127,BlackJack5027,datascience,https://www.reddit.com/r/datascience/comments/1oa93fw/anyone_else_tired_of_the_nonstop_llm_hype_in/,https://www.reddit.com/r/datascience/comments/1oa93fw/anyone_else_tired_of_the_nonstop_llm_hype_in/,1760825800,True,"I have a complex relationship with LLMs. At work, I'm told they're the best thing since the invention of the internet, electricity, or \[insert other trite comparison here\], and that I'll lose my job to people who do use them if I won't (I know I won't lose my job). Yes, standard ""there are some amazing use cases, like the breast cancer imaging diagnostics"" applies, and I think it's good for those like senior leaders where ""close enough"" is all they need. Yet, on the front line in a regulate...",Discussion,self.datascience,
+I built a project and I thought I might share it with the group,39,0.88,10,Emergency-Agreeable,datascience,https://www.reddit.com/r/datascience/comments/1oana21/i_built_a_project_and_i_thought_i_might_share_it/,https://www.reddit.com/r/datascience/comments/1oana21/i_built_a_project_and_i_thought_i_might_share_it/,1760873322,True,"Disclaimer: It's UK focused.
+
+  
+Hi everyone,
+
+When I was looking to buy a house, a big annoyance I had was that I couldn’t easily tell if I was getting value for money. Although, in my opinion, any property is expensive as fuck, I knew that definitely some are more expensive than they should be, always within context.
+
+At the time, what I did was manually extract historical data for the street and for the property I was interested in, in an attempt to understand whether it was going for more...",Analysis,self.datascience,
+"Transformers, Time Series, and the Myth of Permutation Invariance",23,0.88,4,nkafr,datascience,https://www.reddit.com/r/datascience/comments/1oa6dn1/transformers_time_series_and_the_myth_of/,https://www.reddit.com/r/datascience/comments/1oa6dn1/transformers_time_series_and_the_myth_of/,1760819200,True,"There's a common misconception in ML/DL that *Transformers shouldn’t be used for forecasting because attention is permutation-invariant.*
+
+Latest evidence shows the opposite, such as Google's latest model, where the experiments show the model performs just as well with or without positional embeddings.
+
+You can find an analysis on tis topic [here](https://aihorizonforecast.substack.com/p/transformers-time-series-and-the).",Analysis,self.datascience,
+Adversarial relation of success and ethics,16,0.83,14,Ciasteczi,datascience,https://www.reddit.com/r/datascience/comments/1o9urrk/adversarial_relation_of_success_and_ethics/,https://www.reddit.com/r/datascience/comments/1o9urrk/adversarial_relation_of_success_and_ethics/,1760791357,True,"I’ve been data scientist for four years and I feel we often balance on a verge of cost efficiency, because how expensive the truths are to learn. 
+
+Arguably, I feel like there are three types of data investigations: trivial ones, almost impossible ones, and randomized controlled experiments. The trivial ones are making a plot of a silly KPI, the impossible ones are getting actionable insights from real-world data. Random studies are the one thing in which I (still) trust. 
+
+That’s why I feel ...",Discussion,self.datascience,
+Choose between 2 internal offers ?,7,0.73,20,LocPat,datascience,https://www.reddit.com/r/datascience/comments/1o9r7kl/choose_between_2_internal_offers/,https://www.reddit.com/r/datascience/comments/1o9r7kl/choose_between_2_internal_offers/,1760779211,True,"Hi everyone, (TLDR at the end)
+
+I’d like some advice on which option would be best for my career in 2–3 years. Both offers are internal, same salary level (France, ~58k€ total, + added bonus and stock on top).
+
+I currently work as a Data Scientist – AI Lead in the space division of a major European aerospace group. I lead the internal roadmap for generative AI (RAG, LLM, ESA projects), manage ~400k€/year in R&D budget, and supervise 3 people + 2 interns.
+Management really believes in me and w...",Discussion,self.datascience,
+"Causal Data Scientists, what resources helped you the most?",108,0.94,23,LebrawnJames416,datascience,https://www.reddit.com/r/datascience/comments/1o93utr/causal_data_scientists_what_resources_helped_you/,https://www.reddit.com/r/datascience/comments/1o93utr/causal_data_scientists_what_resources_helped_you/,1760713636,True,"Hello everyone, 
+
+I am working on improving in areas of Bayesian and Frequentists A/B testings and Causal Inference, and applying them in industry. I am currently working on normal Frequentists A/B testings, and simple Causal Inference but want to expand to more nuanced cases and have some examples of what they may look like. For example, when to choose TMLE over Propensity Score Matching etc or Bayesian vs Frequentists. 
+
+  
+Please let me know if theres any resources that helped you apply th...",Discussion,self.datascience,
+Would you move from DS to BI/DA/DE for a salary increase?,62,0.87,44,Fit-Employee-4393,datascience,https://www.reddit.com/r/datascience/comments/1o8ipwa/would_you_move_from_ds_to_bidade_for_a_salary/,https://www.reddit.com/r/datascience/comments/1o8ipwa/would_you_move_from_ds_to_bidade_for_a_salary/,1760649795,True,"I’m a DS but salary is below average. Getting recruiters reaching out for other data roles though because my experience is broad. Sometimes these roles start at ~$40k over what I’m making now, and even over other open DS roles I see on LinkedIn in my area for my yoe.
+
+The issue is I love DS work, and don’t want to make it super difficult to get future DS jobs. But I also wouldn’t mind working in another data role for a bit to get that money though. 
+
+What are everyone’s thoughts on this? Woul...",Discussion,self.datascience,
+Where to find actual resources and templates for data management that aren't just blog posts?,8,0.75,8,lemonbottles_89,datascience,https://www.reddit.com/r/datascience/comments/1o8p6f0/where_to_find_actual_resources_and_templates_for/,https://www.reddit.com/r/datascience/comments/1o8p6f0/where_to_find_actual_resources_and_templates_for/,1760667113,True,"[](https://www.reddit.com/r/analytics/?f=flair_name%3A%22Question%22)I'm early in my career, and I've been tasked with a lot of data management and governance work, building SOPs and policies, things like that, for the first time. Everytime I try to research the best templates, guides, documents, spreadsheets, mindmaps, etc., all I get are the annoying generic blog posts that companies use for SEO, like [this](https://www.datamation.com/big-data/data-management-best-practices/). They say ""You...",Discussion,self.datascience,
+What computer do you use for personal projects?,34,0.9,38,BloatedGlobe,datascience,https://www.reddit.com/r/datascience/comments/1o8bkbt/what_computer_do_you_use_for_personal_projects/,https://www.reddit.com/r/datascience/comments/1o8bkbt/what_computer_do_you_use_for_personal_projects/,1760633697,True,"I’m trying to branch out and do more personal projects for my portfolio. My personal computer is pretty old, and I’m reluctant to use my work computer for my personal projects, so I’m curious about what kinds of computers you all use.",Discussion,self.datascience,
+Completely Free Courses Oct 20-30 from Maven Analytics,38,0.9,13,Clicketrie,datascience,https://mavenanalytics.io/open-campus,https://www.reddit.com/r/datascience/comments/1o7a0rk/completely_free_courses_oct_2030_from_maven/,1760532389,False,"Maven Analytics is hosting their Open Campus event Oct 20-30.  This means their whole platform is 100% free during that time. If you've been thinking about taking a course on Power BI, SQL, Python, how to approach the job search, etc., it would be a great time to binge and learn something new.
+
+  
+There's also live sessions for these two weeks around portfolio projects, interviewing, etc.  And they all have Q&A at the end, so you can ask any of the questions you have around getting into data. ",Discussion,mavenanalytics.io,
+AutoML: Yay or nay?,34,0.89,29,idontknowotimdoing,datascience,https://www.reddit.com/r/datascience/comments/1o6f3l8/automl_yay_or_nay/,https://www.reddit.com/r/datascience/comments/1o6f3l8/automl_yay_or_nay/,1760447450,True,"Hello data scientists and adjacent,
+
+I'm at a large company which is taking an interest in moving away from the traditional ML approach of training models ourselves to using AutoML. I have limited experience in it (except an intuition that it is likely to be less powerful in terms of explainability and debugging) and I was wondering what you guys think.
+
+Has anyone had experience with both ""custom"" modelling pipelines and using AutoML (specifically the GCP product)? What were the pros and con...",Discussion,self.datascience,
+"AI Is Overhyped as a Job Killer, Says Google Cloud CEO",448,0.95,81,KitchenTaste7229,datascience,https://www.interviewquery.com/p/ai-job-killer-google-cloud-ceo,https://www.reddit.com/r/datascience/comments/1o5nvkp/ai_is_overhyped_as_a_job_killer_says_google_cloud/,1760371520,False,,Discussion,interviewquery.com,
+Has anyone switched to AI Product Management from Data Science?,39,0.81,22,SnooWalruses4775,datascience,https://www.reddit.com/r/datascience/comments/1o64n48/has_anyone_switched_to_ai_product_management_from/,https://www.reddit.com/r/datascience/comments/1o64n48/has_anyone_switched_to_ai_product_management_from/,1760411893,True,"I've been a DS for almost 5 years, with a good majority in NLP. I've been wanting to do more POCs, less model production (IT budget, stack ranking, general burn-out) and get into Product Management for a while. 
+
+I know the technology quite well, but I lack PM experience. Honestly, I'm pretty burnt out from DS. I really like working with cross-functional teams and focusing on strategy/business more so than coding. I tend to mainly do that these days during the day, then have to code at night ...",Discussion,self.datascience,
+Deep Learning Topics: How Important Are They?,21,0.84,18,LilParkButt,datascience,https://www.reddit.com/r/datascience/comments/1o68gf8/deep_learning_topics_how_important_are_they/,https://www.reddit.com/r/datascience/comments/1o68gf8/deep_learning_topics_how_important_are_they/,1760424867,True,"Background: I have a BS double major in Data Analytics and Information Systems: Data Engineering emphasis. I’m currently pursuing an MS in Data Analytics with a Statistics emphasis, plus graduate certificates in ML/AI and Data Science.
+
+I enjoy:
+
+	•	Classical ML and statistics (regression, tree-based models, etc.)
+
+	•	A/B testing and experimentation design
+
+	•	Forecasting and time-series analysis
+
+	•	Causal inference
+
+	•	SQL and Python (leveraging libraries for applied work rather than buildi...",Discussion,self.datascience,
+Would you recommend starting new agentic projects with Typescript instead of Python?,0,0.27,14,Illustrious-Pound266,datascience,https://www.reddit.com/r/datascience/comments/1o6tquy/would_you_recommend_starting_new_agentic_projects/,https://www.reddit.com/r/datascience/comments/1o6tquy/would_you_recommend_starting_new_agentic_projects/,1760480579,True,"I read somewhere that something like 60%-75% of YC-backed startups that are building agents are using Typescript. I've also heard that Typescript's native type system is very helpful for building AI apps. Is Typescript a better language than Python for building AI agents? 
+
+I don't planning on training my own models so I am not sure if Python is really necessary in my case.",Discussion,self.datascience,
+Starting my Freelance Journey,35,0.84,29,cdtmh,datascience,https://www.reddit.com/r/datascience/comments/1o5l0g8/starting_my_freelance_journey/,https://www.reddit.com/r/datascience/comments/1o5l0g8/starting_my_freelance_journey/,1760365202,True,"I am a Data Scientist and am going to be moving from London to Amsterdam next year. 
+
+I wanted to start freelancing to cover any unemployment period. On fiverr, I see a saturated Data Science space with hundreds of people offering quite similar expertise. On Upwork I realise you need to pay to Connect with project offerings (which sort of makes sense to me to avoid spam for the offerers), which makes me hesitant to start. 
+
+I’m just wondering, with where GenAI is right now, is there actually ...",Discussion,self.datascience,
+"In production, how do you evaluate the quality of the response generated by a RAG system?",18,0.88,19,esp_py,datascience,https://www.reddit.com/r/datascience/comments/1o5n86i/in_production_how_do_you_evaluate_the_quality_of/,https://www.reddit.com/r/datascience/comments/1o5n86i/in_production_how_do_you_evaluate_the_quality_of/,1760370101,True,"I am working on a use case where I need to get the right answer and send it to the user. I have been struggling for a time to find a reliable metric to use that tells me when an answer is correct.
+
+The cost of a **false positive** is very high; there is a huge risk in sending an incorrect answer to the user.
+
+I have been spending most of my time trying to find which metric to use to evaluate the answer.
+
+Here is what I have tried so far:
+
+* I have checked the perplexity or the average log pro...",Discussion,self.datascience,
+Fivetran and dbt,4,0.6,2,Fondant_Decent,datascience,https://i.redd.it/5ycpvlt9uwuf1.jpeg,https://www.reddit.com/r/datascience/comments/1o5pg14/fivetran_and_dbt/,1760374864,False,They seem to be merging? Thoughts on this please. How does this shakeup the landscape if at all? ,Discussion,i.redd.it,
+"Weekly Entering & Transitioning - Thread 13 Oct, 2025 - 20 Oct, 2025",10,1.0,12,AutoModerator,datascience,https://www.reddit.com/r/datascience/comments/1o59o2w/weekly_entering_transitioning_thread_13_oct_2025/,https://www.reddit.com/r/datascience/comments/1o59o2w/weekly_entering_transitioning_thread_13_oct_2025/,1760328070,True," 
+
+Welcome to this week's entering & transitioning thread! This thread is for any questions about getting started, studying, or transitioning into the data science field. Topics include:
+
+* Learning resources (e.g. books, tutorials, videos)
+* Traditional education (e.g. schools, degrees, electives)
+* Alternative education (e.g. online courses, bootcamps)
+* Job search questions (e.g. resumes, applying, career prospects)
+* Elementary questions (e.g. where to start, what next)
+
+While you wait fo...",,self.datascience,
+Clustring very different values,31,0.93,22,Due-Duty961,datascience,https://www.reddit.com/r/datascience/comments/1o37n2r/clustring_very_different_values/,https://www.reddit.com/r/datascience/comments/1o37n2r/clustring_very_different_values/,1760118067,True,"I have 200 observations, 3 variables ( somewhat correlated).For v1, the median is 300 dollars. but I have a really long tail. when I do the histogram, 100 obs are near 0 and the others form a really long tail, even when I cap outliers. what is best way to cluster?",Discussion,self.datascience,
+From data scientist to a new role ?,76,0.9,37,LocPat,datascience,https://www.reddit.com/r/datascience/comments/1o2y9ki/from_data_scientist_to_a_new_role/,https://www.reddit.com/r/datascience/comments/1o2y9ki/from_data_scientist_to_a_new_role/,1760095555,True,"Hi everyone,
+
+I’m 25, currently working as a Data Scientist & AI Engineer at a large Space company in Europe, with ~2.5 years of experience. My focus has been on LLM R&D, RAG pipelines, satellite telemetry anomaly detection, surrogate modeling, and some FPGA-compatible ML for onboard systems. I also mentor interns, coordinate small R&D projects, and occasionally present findings internally.
+
+The context is tough (departures, headcount freezes) and I have an opportunity to move to a large aero...",Discussion,self.datascience,
+What should I ask my potential managers when choosing between two jobs?,25,0.85,16,SavingsMortgage1972,datascience,https://www.reddit.com/r/datascience/comments/1o2nf09/what_should_i_ask_my_potential_managers_when/,https://www.reddit.com/r/datascience/comments/1o2nf09/what_should_i_ask_my_potential_managers_when/,1760058554,True,"I’m deciding between two mid-level data science offers at large tech companies. These are more applied scientist type of roles than analytics. Comp and level are similar, so I’m really trying to figure out which one will set me up for a stronger career in the long run.
+
+This will be my first true DS role (coming from a technical background, PhD + previous R&D role). I want to do interesting, high-impact work that keeps doors open possibly toward more research-type paths down the line but I al...",Career | US,self.datascience,
+Free data set that links company to type of activity?,21,0.89,12,Due-Duty961,datascience,https://www.reddit.com/r/datascience/comments/1o26g7h/free_data_set_that_links_company_to_type_of/,https://www.reddit.com/r/datascience/comments/1o26g7h/free_data_set_that_links_company_to_type_of/,1760017793,True,"Best ressource to classify for example: walmart. food ( top classification) supermarket ( sub classification). I work with european companies also.
+thanks.",Discussion,self.datascience,
+"Less is More: Recursive Reasoning with Tiny Networks (7M model beats R1, Gemini 2.5 Pro on ARC AGI)",24,0.87,4,Technical-Love-8479,datascience,/r/LocalLLaMA/comments/1o1e04z/less_is_more_recursive_reasoning_with_tiny/,https://www.reddit.com/r/datascience/comments/1o1e1vm/less_is_more_recursive_reasoning_with_tiny/,1759938110,False,,AI,,
+"Resources for Data Science & Analysis: A curated list of roadmaps, tutorials, Python libraries, SQL, ML/AI, data visualization, statistics, cheatsheets",273,0.99,74,DeepAnalyze,datascience,https://www.reddit.com/r/datascience/comments/1o0eed8/resources_for_data_science_analysis_a_curated/,https://www.reddit.com/r/datascience/comments/1o0eed8/resources_for_data_science_analysis_a_curated/,1759842743,True,"Hello everyone!
+
+Staying on top of the constantly growing skill requirements in Data Science is quite a challenge. To manage my own learning and growth, I've been curating a list of useful resources and tools that cover the full spectrum of the field — from data analysis and engineering to deep learning and AI.
+
+I'd love to get your professional opinion. Could you please take a look? Have I missed anything crucial? What else would you recommend adding or focusing on?
+
+To give you an immediate...",Discussion,self.datascience,
+Nvidia CEO Reveals the Job That’ll Win the AI Race,64,0.71,48,nullstillstands,datascience,https://www.interviewquery.com/p/nvidia-ceo-ai-race,https://www.reddit.com/r/datascience/comments/1o0khz8/nvidia_ceo_reveals_the_job_thatll_win_the_ai_race/,1759856474,False,,Discussion,interviewquery.com,
+"Exploratory analysis of 12 frontier LLM's across 100s of hours shows o3 highest Type-Token Ratio (Lexical Diversity), GPT-5 most formal language, and GPT-4o most positive sentiment",30,0.9,6,ExplorAI,datascience,https://theaidigest.org/village/blog/village-in-numbers,https://www.reddit.com/r/datascience/comments/1nzfr4k/exploratory_analysis_of_12_frontier_llms_across/,1759747939,False,"I recently ran exploratory analysis on the group chat of the [AI Village](https://theaidigest.org/village): 4+ frontier LLMs all have their own computer, access to the internet, and a group chat, and then get set goals like [raise money](https://theaidigest.org/village/blog/season-recap-agents-raise-2k) for charity, [sell T-shirts](https://theaidigest.org/village/blog/im-gemini-i-sold-t-shirts), or debate ethics. The goal is to build some awareness around what models are capable of now. I too...",Analysis,theaidigest.org,
+"Weekly Entering & Transitioning - Thread 06 Oct, 2025 - 13 Oct, 2025",7,0.82,21,AutoModerator,datascience,https://www.reddit.com/r/datascience/comments/1nz94dg/weekly_entering_transitioning_thread_06_oct_2025/,https://www.reddit.com/r/datascience/comments/1nz94dg/weekly_entering_transitioning_thread_06_oct_2025/,1759723299,True," 
+
+Welcome to this week's entering & transitioning thread! This thread is for any questions about getting started, studying, or transitioning into the data science field. Topics include:
+
+* Learning resources (e.g. books, tutorials, videos)
+* Traditional education (e.g. schools, degrees, electives)
+* Alternative education (e.g. online courses, bootcamps)
+* Job search questions (e.g. resumes, applying, career prospects)
+* Elementary questions (e.g. where to start, what next)
+
+While you wait fo...",,self.datascience,
+Why am I not getting responses?,27,0.72,82,KyronAWF,datascience,https://www.reddit.com/r/datascience/comments/1nyp1uw/why_am_i_not_getting_responses/,https://www.reddit.com/r/datascience/comments/1nyp1uw/why_am_i_not_getting_responses/,1759672989,True,"As mentioned before, I can't use the weekly transition because it doesn't allow pictures. I appreciate your help last time when I asked. I've implemented your recommendations but I'm still not getting responses. I've added a completely new ML-based project, fixed mistakes, revamped the layout and I'm still not getting anything. I appreciate your attention.
+
+https://preview.redd.it/u7bbf3q5vatf1.png?width=666&format=png&auto=webp&s=8d6983cb5e8713b1b8b736f95b916ee52fb0dc21
+
+  
+",Discussion,self.datascience,
+What could be my next career progression?,55,0.94,50,Gaston154,datascience,https://www.reddit.com/r/datascience/comments/1nxrrcw/what_could_be_my_next_career_progression/,https://www.reddit.com/r/datascience/comments/1nxrrcw/what_could_be_my_next_career_progression/,1759578186,True,"Hello, I'm 26 years old been working as a junior data scientist in marketing for the past two years and I'm a bit bored/ have no idea how to progress further in my career.
+
+Currently I do end to end modeling, from gathering data up to production (not in the most data sciency way since I'm very limited in terms of tools but my models are being effectively used by other departments). 
+
+I have built 5 different models: propensity score models, customer segmentation, churn models and a time serie...",Discussion,self.datascience,
+Do you know interesting datasets for kriging?,6,0.72,10,FinalRide7181,datascience,https://www.reddit.com/r/datascience/comments/1nxqln5/do_you_know_interesting_datasets_for_kriging/,https://www.reddit.com/r/datascience/comments/1nxqln5/do_you_know_interesting_datasets_for_kriging/,1759574296,True,"Hi guys, I need to do a project using many linear models and I’m looking for a dataset. Ideally something interesting with lots of numerical variables, especially one where kriging could be applied.
+
+If you have any dataset suggestions or interesting research questions I could build the project around, I’d really appreciate it. Thanks a lot!
+
+PS: i did not like chatgpt suggestions, they were cliche (even if i explicitly asked “not cliche”)",Projects,self.datascience,
+Are LLMs necessary to get a job?,81,0.83,65,br0monium,datascience,https://www.reddit.com/r/datascience/comments/1nwh00i/are_llms_necessary_to_get_a_job/,https://www.reddit.com/r/datascience/comments/1nwh00i/are_llms_necessary_to_get_a_job/,1759441380,True,"For someone laid off in 2023 before the LLM/Agent craze went mainstream, do you think I need to learn LLM architecture? Are certs or github projects worth anything as far as getting through the filters and/or landing a job?  
+
+I have 10 YOE. I specialized in machine learning at the start, but the last 5 years of employment, I was at a FAANG company and didnt directly own any ML stuff. It seems ""traditional"" ML demand, especially without LLM knowledge, is almost zero. I've had some interviews ...",Career | US,self.datascience,
+Fun Interview with Jason Strimpel about transferable skills from data science to algorithmic trading.,19,0.78,6,Clicketrie,datascience,https://www.datamovesme.com/blog/qfe2cds9h37bdmvi8h4a7p0x785ic9,https://www.reddit.com/r/datascience/comments/1nvduc2/fun_interview_with_jason_strimpel_about/,1759338056,False,"I had the opportunity to interview Jason Strimpel.  He's been in trading and technology for 25 years as a hedge fund trader, risk quant, machine learning engineering manager, and GenAI specialist at AWS. He is now the Managing Director of AI and Advanced Analytics at a major consulting company. 
+
+I asked him all about the transferable skills, the mindset shifts, tools someone should pick up if they're just getting started, how algo trading is similar to ML, and differences in how you think ab...",Discussion,datamovesme.com,
+"For data scientists in insurance and banking, how many data scientists/ML engineers work in your company, how are their teams organised, and roughly what do they work on?",56,0.9,28,geebr,datascience,https://www.reddit.com/r/datascience/comments/1nv0lfh/for_data_scientists_in_insurance_and_banking_how/,https://www.reddit.com/r/datascience/comments/1nv0lfh/for_data_scientists_in_insurance_and_banking_how/,1759299041,True,I'm trying to get a better sense of how this is developing in financial services. Anything from insurance/banking or adjacent fields would be most appreciated.,Discussion,self.datascience,
+Weekend Project - Poker Agents Video/Code,61,0.93,16,MLEngDelivers,datascience,https://i.redd.it/hqdrczgwxasf1.jpeg,https://www.reddit.com/r/datascience/comments/1nucvgd/weekend_project_poker_agents_videocode/,1759238037,False,"Fun side project. You can configure (almost) any LLM as a player. The main capabilities (tools) each agent can call are:
+
+1) Hand Analysis
+Get detailed info about current hand and possibilities (straight draws, flush potential, many other things)
+
+2) Monte Carlo
+Get an estimated win probability if the player continues in the hand (can only be called one time per hand)
+
+3) Opponent Statistics
+Get metrics about opponent behavior, specifically how aggressive or passively they’ve played
+
+It’s not...",Projects,i.redd.it,
+Distance Correlation & Matrix Association. Good stuff?,4,0.75,4,uSeeEsBee,datascience,/r/AskStatistics/comments/1nurfk1/distance_correlation_matrix_association_good_stuff/,https://www.reddit.com/r/datascience/comments/1nurg0y/distance_correlation_matrix_association_good_stuff/,1759271709,False,,Discussion,,
+This has to be bait right?,193,0.84,54,ds_throw,datascience,https://i.redd.it/o7gh03w4s4sf1.jpeg,https://www.reddit.com/r/datascience/comments/1ntmrix/this_has_to_be_bait_right/,1759163512,False,recruitment companies posting jobs like this are just setting bait to get resumes so they can push other jobs right?,Discussion,i.redd.it,
+[D] Self-Promotion Thread,13,0.81,58,AutoModerator,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1nvrmw5/d_selfpromotion_thread/,https://www.reddit.com/r/MachineLearning/comments/1nvrmw5/d_selfpromotion_thread/,1759371330,True,"Please post your personal projects, startups, product placements, collaboration needs, blogs etc.
+
+Please mention the payment and pricing requirements for products and services.
+
+Please do not post link shorteners, link aggregator websites , or auto-subscribe links.
+
+\--
+
+Any abuse of trust will lead to bans.
+
+Encourage others who create new posts for questions to post here instead!
+
+Thread will stay alive until next one so keep posting after the date in the title.
+
+\--
+
+Meta: This is an expe...",Discussion,self.MachineLearning,
+[D] Monthly Who's Hiring and Who wants to be Hired?,14,0.95,3,AutoModerator,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1nuwj5t/d_monthly_whos_hiring_and_who_wants_to_be_hired/,https://www.reddit.com/r/MachineLearning/comments/1nuwj5t/d_monthly_whos_hiring_and_who_wants_to_be_hired/,1759285839,True,"**For Job Postings** please use this template
+
+>Hiring: \[Location\], Salary:\[\], \[Remote | Relocation\], \[Full Time | Contract | Part Time\]    and \[Brief overview, what you're looking for\]
+
+**For Those looking for jobs** please use this template
+
+>Want to be Hired: \[Location\], Salary Expectation:\[\], \[Remote | Relocation\], \[Full Time | Contract | Part Time\]  Resume: \[Link to resume\] and \[Brief overview, what you're looking for\]
+
+&#x200B;
+
+Please remember that this community ...",Discussion,self.MachineLearning,
+Google PhD Fellowship recipients 2025 [D],41,0.92,5,Alternative_Art2984,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1ogy6z9/google_phd_fellowship_recipients_2025_d/,https://www.reddit.com/r/MachineLearning/comments/1ogy6z9/google_phd_fellowship_recipients_2025_d/,1761518443,True,"Google have just announced the 2025 recipients. 
+
+What are the criteria to get this fellowship?
+
+[https://research.google/programs-and-events/phd-fellowship/recipients/](https://research.google/programs-and-events/phd-fellowship/recipients/)",Discussion,self.MachineLearning,
+[P] Cutting Inference Costs from $46K to $7.5K by Fine-Tuning Qwen-Image-Edit,33,0.94,1,FallMindless3563,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1ogud3r/p_cutting_inference_costs_from_46k_to_75k_by/,https://www.reddit.com/r/MachineLearning/comments/1ogud3r/p_cutting_inference_costs_from_46k_to_75k_by/,1761508864,True,"Wanted to share some learnings we had optimizing and deploying Qwen-Image-Edit at scale to replace Nano-Banana. The goal was to generate a product catalogue of 1.2m images, which would have cost $46k with Nano-Banana or GPT-Image-Edit.
+
+Qwen-Image-Edit being Apache 2.0 allows you to fine-tune and apply a few tricks like compilation, lightning lora and quantization to cut costs.
+
+The base model takes \~15s to generate an image which would mean we would need 1,200,000\*15/60/60=5,000 compute ho...",Project,self.MachineLearning,
+"[D] Building low cost GPU compute in Africa cheap power, solid latency to Brazil/Europe, possibly US for batching",32,0.91,23,DjuricX,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1oggr5l/d_building_low_cost_gpu_compute_in_africa_cheap/,https://www.reddit.com/r/MachineLearning/comments/1oggr5l/d_building_low_cost_gpu_compute_in_africa_cheap/,1761472673,True,"Hey everyone
+
+I’m exploring the idea of setting up a GPU cluster in Angola to provide affordable AI compute (A100s and 5090s). Power costs here are extremely low, and there’s direct Tier-3 connectivity to South America and Europe, mostly southern below 100 ms.
+
+Before going further, I wanted to gauge interest would researchers, indie AI teams, or small labs consider renting GPU time if prices were around 30–40 % lower than typical cloud platforms?
+
+For US users running batching, scraping, or ...",Discussion,self.MachineLearning,
+[P] Clojure Runs ONNX AI Models Now,3,1.0,0,dragandj,MachineLearning,https://dragan.rocks/articles/25/Clojure-Runs-ONNX-AI-Models-Now,https://www.reddit.com/r/MachineLearning/comments/1ogvnuo/p_clojure_runs_onnx_ai_models_now/,1761512000,False,,Project,dragan.rocks,
+[P] Built a GPU time-sharing tool for research labs (feedback welcome),4,1.0,0,not-your-typical-cs,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1ogrf13/p_built_a_gpu_timesharing_tool_for_research_labs/,https://www.reddit.com/r/MachineLearning/comments/1ogrf13/p_built_a_gpu_timesharing_tool_for_research_labs/,1761501881,True,"Built a side project to solve GPU sharing conflicts in the lab: **Chronos**
+
+**The problem**: 1 GPU, 5 grad students, constant resource conflicts.
+
+**The solution**: Time-based partitioning with auto-expiration.
+
+    from chronos import Partitioner
+    
+    with Partitioner().create(device=0, memory=0.5, duration=3600) as p:
+        train_model()  # Guaranteed 50% GPU for 1 hour, auto-cleanup
+
+\- Works on any GPU (NVIDIA, AMD, Intel, Apple Silicon)
+
+\- < 1% overhead
+
+\- Cross-platform
+
+\- Apa...",Project,self.MachineLearning,
+"My ""Place"" in Machine Learning [D]",0,0.43,1,YogurtclosetThen6260,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1oh1m96/my_place_in_machine_learning_d/,https://www.reddit.com/r/MachineLearning/comments/1oh1m96/my_place_in_machine_learning_d/,1761527938,True,"I think a very hard challenge for me at the moment is figuring out where I fit in ML. I'm not sure what I should specialize in and what would be right for me. So I wanted to ask everyone here, how did you find your ""place"" in ML, whether it's job, specialization, etc. and what would recommend for someone fresh in the field?",Discussion,self.MachineLearning,
+[P] SDLArch-RL is now compatible with libretro Software Render cores!!!,5,0.86,0,AgeOfEmpires4AOE4,MachineLearning,https://i.redd.it/m9bts8p4whxf1.png,https://www.reddit.com/r/MachineLearning/comments/1ogr8h2/p_sdlarchrl_is_now_compatible_with_libretro/,1761501455,False,"This week I made a series of adjustments, including making the environment's core compatible with Libretro cores, which are software renderers. Now you can train Reinforcement Learning with PS2, Wii, Game Cube, PS1, SNES, and other games!
+
+If anyone is interested in collaborating, we're open to ideas!!! And also to anyone who wants to code ;)
+
+Here's the link to the repository: [https://github.com/paulo101977/sdlarch-rl](https://github.com/paulo101977/sdlarch-rl)
+
+Here's the link to my channe...",Project,i.redd.it,
+[N] OpenEnv: Agentic Execution Environments for RL post training in PyTorch,1,1.0,0,DecodeBytes,MachineLearning,https://www.deepfabric.dev/blog/introduction_to_openenv,https://www.reddit.com/r/MachineLearning/comments/1ogsupi/n_openenv_agentic_execution_environments_for_rl/,1761505255,False,,News,deepfabric.dev,
+[R] A geometric interpretation of the weight update in GPTQ quantization algorithm and a novel solution,2,0.67,2,nivter,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1ogk2mr/r_a_geometric_interpretation_of_the_weight_update/,https://www.reddit.com/r/MachineLearning/comments/1ogk2mr/r_a_geometric_interpretation_of_the_weight_update/,1761483775,True,"GPTQ is a simplified modification of the OBQ method where the weights in a matrix are quantized in each row independently one at a time from left to right. After step `i` of quantization, the remaining unquantized weights are modified like so: `dW[i:] = H[i:,i] dW[i]/H[i,i]`. This expression is derived by forming a Lagrangian and setting its gradient to 0.
+
+Another way to approach this problem is by using the Cholesky decomposition `L` of the Hessian `H = L @ L.t()` directly in the bilinear e...",Research,self.MachineLearning,
+[D] Which packages for object detection research,8,0.9,11,RaeudigerRaffi,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1og4s1d/d_which_packages_for_object_detection_research/,https://www.reddit.com/r/MachineLearning/comments/1og4s1d/d_which_packages_for_object_detection_research/,1761431998,True,"Wanted to know which software packages/frameworks you guys use for object detection research. I mainly experiment with transformers (dino, detr, etc) and use detrex and dectron2 which i absolutely despise. I am mainly looking for an alternative that would allow me to make architecture modification and changes to the data pipeline in a quicker less opinionated manner",Discussion,self.MachineLearning,
+[D] Measuring how similar a vector's neighbourhood (of vectors) is,20,0.92,19,neuralbeans,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1oftqd3/d_measuring_how_similar_a_vectors_neighbourhood/,https://www.reddit.com/r/MachineLearning/comments/1oftqd3/d_measuring_how_similar_a_vectors_neighbourhood/,1761404518,True,"Given a word embedding space, I would like to measure how 'substitutable' a word is. Put more formally, how many other embedding vectors are very close to the query word's vector? I'm not sure what the problem I'm describing is called.
+
+Maybe I need to measure how dense a query vector's surrounding volume is? Or maybe I just need the mean/median of all the distances from all the vectors to the query vector. Or maybe I need to sort the distances of all the vectors to the query vector and then ...",Discussion,self.MachineLearning,
+[D] How to host my fine-tuned Helsinki Transformer locally for API access?,9,0.85,3,IronGhost_7,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1of1b15/d_how_to_host_my_finetuned_helsinki_transformer/,https://www.reddit.com/r/MachineLearning/comments/1of1b15/d_how_to_host_my_finetuned_helsinki_transformer/,1761320889,True,"Hi, I fine-tuned a Helsinki Transformer for translation tasks and it runs fine locally.  
+A friend made a Flutter app that needs to call it via API, but Hugging Face endpoints are too costly.  
+I’ve never hosted a model before what’s the easiest way to host it so that the app can access it?  
+Any simple setup or guide would help!",Discussion,self.MachineLearning,
+[R] UFIPC: Physics-based AI Complexity Benchmark - Models with identical MMLU scores differ 29% in complexity,1,0.53,5,Pleasant-Egg-5347,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1of87n0/r_ufipc_physicsbased_ai_complexity_benchmark/,https://www.reddit.com/r/MachineLearning/comments/1of87n0/r_ufipc_physicsbased_ai_complexity_benchmark/,1761336929,True,"I've developed a benchmark that measures AI architectural complexity (not just task accuracy) using 4 neuroscience-derived parameters.
+
+
+
+\*\*Key findings:\*\*
+
+\- Models with identical MMLU scores differ by 29% in architectural complexity
+
+\- Methodology independently validated by convergence with clinical psychiatry's ""Thought Hierarchy"" framework
+
+\- Claude Sonnet 4 (0.7845) ranks highest in processing complexity, despite GPT-4o having similar task performance
+
+
+
+\*\*Results across 10 fron...",Research,self.MachineLearning,
+[R] Continuous latent interpolation breaks geometric constraints in 3D generation,57,0.94,16,Jealous-Leek-5428,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1oe6ywk/r_continuous_latent_interpolation_breaks/,https://www.reddit.com/r/MachineLearning/comments/1oe6ywk/r_continuous_latent_interpolation_breaks/,1761234775,True,"Working with text-to-3D models and hitting a fundamental issue that's confusing me. Interpolating between different objects in latent space produces geometrically impossible results.
+
+Take ""wooden chair"" to ""metal beam"". The interpolated mesh has vertices that simultaneously satisfy chair curvature constraints and beam linearity constraints. Mathematically the topology is sound but physically it's nonsense.
+
+This suggests something wrong with how these models represent 3D space. We're applyin...",Research,self.MachineLearning,
+[R] Signal Processing for AI — A New Way to Think About LLMs and ANN Search,3,0.55,13,yumojibaba,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1oemepr/r_signal_processing_for_ai_a_new_way_to_think/,https://www.reddit.com/r/MachineLearning/comments/1oemepr/r_signal_processing_for_ai_a_new_way_to_think/,1761273529,True,"We have been exploring how signal processing principles, traditionally used in communication systems to extract meaningful information from noisy data, can be applied to AI models and embedding spaces to make them more efficient and accurate.
+
+We're presenting this work in collaboration with **Prof. Gunnar Carlsson** (Stanford Mathematics Emeritus, pioneer in topological data analysis), showing how signal processing can complement modern AI architectures.
+
+
+📍 **Event details:** https://luma.c...",Research,self.MachineLearning,
+"Deepseek OCR : High Compression Focus, But Is the Core Idea New? + A Thought on LLM Context Compression[D]",10,0.82,3,Toppnotche,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1oedumd/deepseek_ocr_high_compression_focus_but_is_the/,https://www.reddit.com/r/MachineLearning/comments/1oedumd/deepseek_ocr_high_compression_focus_but_is_the/,1761250444,True,"**The paper highlights** its ""Contexts Optical Compression"" module, which compresses visual tokens between the vision encoder and the MoE language decoder. They show impressive results, like 97% OCR precision even with <10x compression (original vision tokens vs. compressed ones) and \~60% at 20x.  
+
+
+**My take \[D\]:** The compression of visual tokens in the latent space is not a new thing it is was done in the VLMs previously. I guess back than the compression was not the main focus, in thi...",Discussion,self.MachineLearning,
+[N] Open AI just released Atlas browser. It's just accruing architectural debt,171,0.7,87,No_Marionberry_5366,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1od8zpw/n_open_ai_just_released_atlas_browser_its_just/,https://www.reddit.com/r/MachineLearning/comments/1od8zpw/n_open_ai_just_released_atlas_browser_its_just/,1761141412,True,"The web wasn't built for AI agents. It was built for humans with eyes, mice, and 25 years of muscle memory navigating dropdown menus.  
+  
+Most AI companies are solving this with browser automation, playwright scripts, Selenium wrappers, headless Chrome instances that click, scroll, and scrape like a human would.
+
+It's a workaround and it's temporary.
+
+These systems are slow, fragile, and expensive. They burn compute mimicking human behavior that AI doesn't need. They break when websites upda...",News,self.MachineLearning,
+"[R] Why do continuous normalising flows produce ""half dog-half cat"" samples when the data distribution is clearly topologically disconnected?",58,0.97,10,dogecoinishappiness,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1odhjxh/r_why_do_continuous_normalising_flows_produce/,https://www.reddit.com/r/MachineLearning/comments/1odhjxh/r_why_do_continuous_normalising_flows_produce/,1761160368,True,"EDIT: this is really a question about the diffeomorphicity of continuous normalising flows and whether that is problematic (not about pictures of animals!)
+
+Continuous normalising flows push a source distribution to a target distribution via a diffeomorphism (usually an automorphism of d-dimensional Euclidean space). I'm confused about sparsely sampled parts of the data distribution and whether the fact that the diffeomorphic mapping is assuming things about the data distribution (e.g. its co...",Research,self.MachineLearning,
+[R] Why loss spikes?,63,0.95,19,Previous-Raisin1434,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1odfuwe/r_why_loss_spikes/,https://www.reddit.com/r/MachineLearning/comments/1odfuwe/r_why_loss_spikes/,1761156599,True,"During the training of a neural network, a very common phenomenon is that of loss spikes, which can cause large gradient and destabilize training. Using a learning rate schedule with warmup, or clipping gradients can reduce the loss spikes or reduce their impact on training.
+
+However, I realised that I don't really understand why there are loss spikes in the first place. Is it due to the input data distribution? To what extent can we reduce the amplitude of these spikes? Intuitively, if the m...",Research,self.MachineLearning,
+[N] Pondering how many of the papers at AI conferences are just AI generated garbage.,164,0.89,56,Adventurous-Cut-7077,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1od3j63/n_pondering_how_many_of_the_papers_at_ai/,https://www.reddit.com/r/MachineLearning/comments/1od3j63/n_pondering_how_many_of_the_papers_at_ai/,1761125120,True,"[https://www.scmp.com/tech/tech-trends/article/3328966/ai-powered-fraud-chinese-paper-mills-are-mass-producing-fake-academic-research](https://www.scmp.com/tech/tech-trends/article/3328966/ai-powered-fraud-chinese-paper-mills-are-mass-producing-fake-academic-research)
+
+A new CCTV investigation found that paper mills in mainland China are using generative AI to mass-produce forged scientific papers, with some workers reportedly “writing” more than 30 academic articles per week using chatbots. ...",News,self.MachineLearning,
+"[R] Un-LOCC (Universal Lossy Optical Context Compression), Achieve Up To 3× context compression with 93.65% Accuracy.",1,0.53,4,MaxDev0,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1odzd16/r_unlocc_universal_lossy_optical_context/,https://www.reddit.com/r/MachineLearning/comments/1odzd16/r_unlocc_universal_lossy_optical_context/,1761214072,True,"**TL;DR**: I compress LLM context into **images** instead of text, and let a **vision-language model** (VLM) “decompress” it by reading the image. In my tests, this yields up to **\~2.8:1 token compression at 93.65% accuracy** on *Gemini 2.5-Flash-Lite (Exp 56)*, and **99.26% at 1.7:1** on *Qwen2.5-VL-72B-Instruct (Exp 34)*. Full code, experiments, and replication steps are open-source.
+
+**Repo (please ⭐ if useful):** [https://github.com/MaxDevv/Un-LOCC](https://github.com/MaxDevv/Un-LOCC)
+
+#...",Research,self.MachineLearning,
+[D] Dexterous Robotic Foundation Models,14,1.0,0,currentscurrents,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1odeqyl/d_dexterous_robotic_foundation_models/,https://www.reddit.com/r/MachineLearning/comments/1odeqyl/d_dexterous_robotic_foundation_models/,1761154194,True,"Good talk by Sergey Levine about the current state-of-the-art in robotic foundation models: https://www.youtube.com/watch?v=yp5fI6gufBs
+
+TL;DR They use a pretrained VLM, stapled to a diffusion or flow model trained on robotics actions. Reinforcement learning inside the latent space of a diffusion model is surprisingly efficient compared to traditional RL (as few as 50 rollouts with sparse rewards). 
+
+This works well, but the primary bottleneck is a lack of large action datasets. 
+Much more re...",Discussion,self.MachineLearning,
+[P] 1.4x times faster training for PI0.5,14,0.82,4,barbarous_panda,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1odd8b0/p_14x_times_faster_training_for_pi05/,https://www.reddit.com/r/MachineLearning/comments/1odd8b0/p_14x_times_faster_training_for_pi05/,1761150892,True,"Hi everyone.
+
+For the past couple of weeks I have been playing around with PI0.5 and training it on behavior 1k tasks. I performed a full fine-tuning training run of PI0.5 for 30000 steps with batch size of 32 and it took 30 hours.
+
+In order for me to train over 1 epoch of the entire behavior 1k dataset with batch size of 32 I need to perform 3.7 million training steps. This will take around 3700 hours or 154 days which would amount to $8843 ($2.39 for 1 H100).
+
+So I decide to optimize the tr...",Project,self.MachineLearning,
+[R] Attention-Driven Transformers for forecasting (better accuracy + speed with less attention),13,0.85,6,kertara,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1odccyz/r_attentiondriven_transformers_for_forecasting/,https://www.reddit.com/r/MachineLearning/comments/1odccyz/r_attentiondriven_transformers_for_forecasting/,1761148956,True,"Hi everyone. I'd like to share something I've been working on: Attention-Driven Transformers for time series forecasting
+
+The approach focuses on maximizing attention's representational capacity by using a single top-layer attention block O(n²) to drive multiple lightweight projection blocks O(n), rather than repeating full attention across all blocks. It uses PatchTST's patching algorithm to segment time series into overlapping windows.
+
+The core insight is that attention works best as a glo...",Research,self.MachineLearning,
+[R] rBridge: Predicting LLM Reasoning Performance with Small Proxy Models (100× Compute Reduction),13,0.93,2,jshin49,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1od0fw8/r_rbridge_predicting_llm_reasoning_performance/,https://www.reddit.com/r/MachineLearning/comments/1od0fw8/r_rbridge_predicting_llm_reasoning_performance/,1761113209,True,"We present rBridge, a method that enables small proxy models (≤1B parameters) to effectively predict large-model reasoning performance, addressing the emergence problem in reasoning capabilities.
+
+**Paper:** [https://www.arxiv.org/abs/2509.21013](https://www.arxiv.org/abs/2509.21013)
+
+**Abstract/TL;DR:** Given the prohibitive cost of pre-training large language models, leveraging smaller proxy models to optimize datasets before scaling up is essential. However, reasoning capabilities exhibit ...",Research,self.MachineLearning,
+[D] Self-Alignment for Factuality: Mitigating Hallucinations in LLMs via Self-Evaluation,12,0.83,4,SmthngGreater,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1ocyruz/d_selfalignment_for_factuality_mitigating/,https://www.reddit.com/r/MachineLearning/comments/1ocyruz/d_selfalignment_for_factuality_mitigating/,1761107343,True,"[https://arxiv.org/abs/2402.09267](https://arxiv.org/abs/2402.09267)
+
+Very interesting paper I found about how to make LLMS keep themselves in check when it comes to factuality and how to mitigate and reduce hallucinations without the need of human intervention.
+
+I think this framework could contribute and give LLMs huge benefits, especially in fields where high factuality confidence and low (or ideally none) hallucinations are needed.
+
+Summary: In this work, we explore Self-Alignment for Fac...",Discussion,self.MachineLearning,
+[P] Getting purely curiosity driven agents to complete Doom E1M1,7,0.82,2,invocation02,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1od0v4o/p_getting_purely_curiosity_driven_agents_to/,https://www.reddit.com/r/MachineLearning/comments/1od0v4o/p_getting_purely_curiosity_driven_agents_to/,1761114801,True,"Quick context: I'm training a playable DOOM world model where you can prompt like ""spawn cyberdemon left"" or ""harder"" to change game events in real time. I wanted to take DeepMind's playable Doom world model in [Diffusion Models are Real-Time Game Engiens](https://arxiv.org/abs/2408.14837), and add text conditioning to make game events promptable.
+
+**To train this I need \~100 hours of action-labeled DOOM gameplay data.**
+
+I could have scraped DOOM data from YouTube, or paid contractors, but ...",Project,self.MachineLearning,
+[D] is OR down again?,8,0.72,4,tahirsyed,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1od1jgj/d_is_or_down_again/,https://www.reddit.com/r/MachineLearning/comments/1od1jgj/d_is_or_down_again/,1761117346,True,"Hi,
+
+Sorry for the non-learning question, but most of the community is here.
+
+There's ' upstream request timeout' on OpenReview. Has been for a while.
+
+Are you experiencing that too? Do you have an idea on the ETA on the uptime?
+
+Appreciated!",Discussion,self.MachineLearning,
+[R] Are you working on a code-related ML research project? I want to help with your dataset,0,0.25,8,pgreggio,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1oddm2g/r_are_you_working_on_a_coderelated_ml_research/,https://www.reddit.com/r/MachineLearning/comments/1oddm2g/r_are_you_working_on_a_coderelated_ml_research/,1761151725,True,"I’ve been digging into how researchers build datasets for code-focused AI work — things like program synthesis, code reasoning, SWE-bench-style evals, DPO/RLHF. It seems many still rely on manual curation or synthetic generation pipelines that lack strong quality control.
+
+**I’m part of a small initiative supporting researchers who need custom, high-quality datasets for code-related experiments — at no cost. Seriously, it's free.**
+
+If you’re working on something in this space and could use h...",Research,self.MachineLearning,
+[D] Bigger != More Overfitting,0,0.33,7,Toppnotche,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1odekaj/d_bigger_more_overfitting/,https://www.reddit.com/r/MachineLearning/comments/1odekaj/d_bigger_more_overfitting/,1761153782,True,"What bias variance tradeoff teaches us:  
+We must carefully limit the power of our models to match the complexity of our data to avoid overfitting.  
+When we make Neural Networks larger it works better which contradicts our bias variance tradeoff which is actually incomplete.
+
+Keeping the dataset fixed and no early stopping as we increasing the NN size:
+
+When we make a NN larger at the start the performance increases rapidly, than if we continue to make it larger at some point the performance...",Discussion,self.MachineLearning,
+[D] NeurIPS Camera-ready Checklist,34,0.89,6,Choice-Play-4493,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1oc52j1/d_neurips_cameraready_checklist/,https://www.reddit.com/r/MachineLearning/comments/1oc52j1/d_neurips_cameraready_checklist/,1761026227,True,"Hey,
+
+When I prepare my NeurIPS submission camera-ready version, I found that the instruction email asks to put the checklist before the appendices.
+
+However, in this call for paper page (https://neurips.cc/Conferences/2025/CallForPapers), the LaTex style file actucally put the checklist after the appendices. 
+
+Personally speaking, putting the checklist before appendices is not aesthetic and elegant. I also check around 30 camera ready NeurIPS papers that got uploaded to arXiv, and only one p...",Discussion,self.MachineLearning,
+[R] A simple PMF estimator in large supports,8,0.9,0,alexsht1,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1ocb4s7/r_a_simple_pmf_estimator_in_large_supports/,https://www.reddit.com/r/MachineLearning/comments/1ocb4s7/r_a_simple_pmf_estimator_in_large_supports/,1761048408,True,"When working on various recommender systems, it always was weird to me that creating dashboards or doing feature engineering is hard with integer-valued features that are heavily tailed and have large support, such as # of monthly visits on a website, or # monthly purchases of a product.
+
+  
+So I decided to do a one small step towards tackling the problem. I hope you find it useful:  
+https://arxiv.org/abs/2510.15132",Research,self.MachineLearning,
+[D] ICLR 2026 Question,2,0.54,16,Fresh-Opportunity989,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1occpmf/d_iclr_2026_question/,https://www.reddit.com/r/MachineLearning/comments/1occpmf/d_iclr_2026_question/,1761052663,True,"ICLR 2026 author guide says max 9 pages of main text in submissions, while FAQ says 10 pages. And [Google shows several such](https://www.google.com/search?q=iclr+2026+page+limit) contradictions in time and space...\[*Edit: screenshot below\]*
+
+Vanilla definition of ""main text"" is all content between title and references, except for exempt sections, i.e. ""Ethics"" and ""Reproducibility"" sections per author guide.
+
+Random sampling suggests \~5% of the \~20,000 submissions under review have main ...",Discussion,self.MachineLearning,
+GPU 101 and Triton kernels,42,0.9,17,bornlex,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1obnz7i/gpu_101_and_triton_kernels/,https://www.reddit.com/r/MachineLearning/comments/1obnz7i/gpu_101_and_triton_kernels/,1760980536,True,"Dear fellow ML people,
+
+LLMs need trillions of tokens to be trained, which makes optimization and speed key of current ML pipeline. When I wrote a [GPT2 implementation from scratch](https://github.com/Bornlex/GPT2), I iteratively improved it by adding a few features such as Multi-head self attention, grouped query self attention, kv cache...
+
+Then I asked myself : can I make training faster ?
+
+I wrote this blog article [Make GPU go brrr](https://bornlex.github.io/posts/triton1/) a few days ag...",Discussion,self.MachineLearning,
+[P] Built a searchable gallery of ML paper plots with copy-paste replication code,49,1.0,12,Every_Prior7165,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1obbp7m/p_built_a_searchable_gallery_of_ml_paper_plots/,https://www.reddit.com/r/MachineLearning/comments/1obbp7m/p_built_a_searchable_gallery_of_ml_paper_plots/,1760938132,True,"Hey everyone,
+
+I got tired of seeing interesting plots in papers and then spending 30+ minutes hunting through GitHub repos or trying to reverse-engineer the visualization code, so I built a tool to fix that.
+
+**What it does:**
+
+* Browse a searchable gallery of plots from ML papers (loss curves, attention maps, ablation studies, etc.)
+* Click any plot to get the exact Python code that generated it
+* Copy-paste the code and run it immediately - all dependencies listed
+* Filter by model archite...",Project,self.MachineLearning,
+"[D] What is the best easy-to-use, open-source framework for creating Agents that can browse the web to retrieve basic statistics on political issues?",7,0.77,5,t3cblaze,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1obi9th/d_what_is_the_best_easytouse_opensource_framework/,https://www.reddit.com/r/MachineLearning/comments/1obi9th/d_what_is_the_best_easytouse_opensource_framework/,1760964931,True,"I am interested in creating something---much simpler than Deep Research---that will use web search to fetch statistics such as ""How many DUIs occur each year in the United States?"" I am looking for a framework that allows me to use different LLMs to power it (e.g., can sub in openai, llama, etc). Any advice on what framework/library to use?",Discussion,self.MachineLearning,
+[D] Using torch.cuda.synchronize() causing unexpected errors with Triton.,2,0.75,3,madaram23,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1obe2i3/d_using_torchcudasynchronize_causing_unexpected/,https://www.reddit.com/r/MachineLearning/comments/1obe2i3/d_using_torchcudasynchronize_causing_unexpected/,1760946947,True,"I was going through the triton tutorial for vector addition [here](https://triton-lang.org/main/getting-started/tutorials/01-vector-add.html#sphx-glr-getting-started-tutorials-01-vector-add-py). When I added `torch.cuda.synchronize()` statement before `return output` in the add function, the benchmarks showed that the difference between the triton and torch implementations blew up. I was under the impression that `synchronize()` would just wait for all the threads to finish running before ret...",Discussion,self.MachineLearning,
+Minimizing Mode Collapse in CycleGAN [D],1,0.67,3,Less-Training-8752,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1obf5bw/minimizing_mode_collapse_in_cyclegan_d/,https://www.reddit.com/r/MachineLearning/comments/1obf5bw/minimizing_mode_collapse_in_cyclegan_d/,1760951055,True,"Any steps that have worked for you in the past will work. My generator loss is around 2-3 range (with identity and cyclic components), while discriminator loss has flat lined at 0.005-0.02. Sample outputs look extremely different from what is required. After a certain epoch, I implemented 2x Gen step for each disc, higher gen loss, lowered cyclic and identity components, but 2-3 epoch later, even if the gen loss is less, there isnt any change in disc loss
+
+[](https://www.reddit.com/submit/?po...",Project,self.MachineLearning,
+Are MLE roles being commoditized and squeezed? Are the jobs moving to AI engineering? [D],57,0.76,44,Dear-Ad-7428,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1oajofr/are_mle_roles_being_commoditized_and_squeezed_are/,https://www.reddit.com/r/MachineLearning/comments/1oajofr/are_mle_roles_being_commoditized_and_squeezed_are/,1760859664,True,"A couple quotes from Gemini and Claude
+
+""While still in high demand, some of the model-specific work is becoming more democratized or abstracted by automated tools and APIs.""
+
+""""""
+
+The ML engineering that remains valuable:
+
+* Research-level work at frontier labs (extremely competitive, requires PhD + exceptional talent)
+* Highly specialized domains (medical imaging, robotics, etc.) where you need domain expertise + ML
+* Infrastructure/systems work (distributed training, optimization, serving ...",Discussion,self.MachineLearning,
+[D] On AAAI 2026 Discussion,74,0.97,34,Public_Courage_7541,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1oaf1v0/d_on_aaai_2026_discussion/,https://www.reddit.com/r/MachineLearning/comments/1oaf1v0/d_on_aaai_2026_discussion/,1760843224,True,"I'm a reviewer (PC) and don’t have a submission myself, but honestly, this is the weirdest reviewing process I’ve ever experienced.  
+  
+1. Phase 2 papers are worse than Phase 1.   
+In Phase 1, I reviewed four papers and gave scores of 3, 4, 5, and 5. I was even open to raising the scores after the discussion, but all of them ended up being rejected. Now, in Phase 2, I have papers rated 3 and 4, but they’re noticeably weaker than the ones from Phase 1.
+
+2. It feels like one reviewer is person...",Research,self.MachineLearning,
+[D] Found error at published Neurips paper,60,0.83,40,BetterbeBattery,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1oaa2ea/d_found_error_at_published_neurips_paper/,https://www.reddit.com/r/MachineLearning/comments/1oaa2ea/d_found_error_at_published_neurips_paper/,1760828403,True,"I've figured out the error that was published several years ago. The paper provides a convergence theorem of fundamental algorithm. The key theorem relies on the specific Lemma, however, I figured out that invoking this lemma is a ""bit"" misleading. They should add a bit stronger assumption (which, I do not think it is that strong) to invoke such lemma.  
+However, due to this issue, the key theorem does collapse.
+
+What should I do?",Research,self.MachineLearning,
+[D] What are some trendy or emerging topics in AI/ML research beyond LLMs and NLP?,79,0.95,54,DryHat3296,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1oa7bb2/d_what_are_some_trendy_or_emerging_topics_in_aiml/,https://www.reddit.com/r/MachineLearning/comments/1oa7bb2/d_what_are_some_trendy_or_emerging_topics_in_aiml/,1760821399,True,"Hi everyone,
+
+I’ve noticed that most discussions lately revolve around LLMs and NLP, but I’m curious about what other areas in AI/ML are currently getting attention in research.
+
+What topics or fields do you think are becoming exciting right now?",Discussion,self.MachineLearning,
+[R] Using Rectified Flow Models for Cloud Removal in Satellite Images,10,1.0,1,theWatcher_345,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1oahlsa/r_using_rectified_flow_models_for_cloud_removal/,https://www.reddit.com/r/MachineLearning/comments/1oahlsa/r_using_rectified_flow_models_for_cloud_removal/,1760851913,True,"Hey everyone,
+
+I’m currently working on my Master’s thesis on *cloud removal from optical satellite imagery*, and I’m exploring the use of **Rectified Flow (RF)** models for this task. Most existing approaches use CNNs, diffusion models (like DiffCR), or multi-temporal transformers, but rectified flows seem promising because they can produce high-quality results in fewer steps than diffusion while maintaining stability and smooth transport.
+
+My idea is to train a **conditional rectified flow*...",Research,self.MachineLearning,
+My experience deploying an ML-driven trading system [P],0,0.15,6,ztnelnj,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1ob5yuv/my_experience_deploying_an_mldriven_trading/,https://www.reddit.com/r/MachineLearning/comments/1ob5yuv/my_experience_deploying_an_mldriven_trading/,1760920503,True,"Years back, after finishing my CS degree, I got into algorithmic trading as a personal project. It felt like the perfect arena to push my skills in coding, data science, and, most importantly, data engineering. After a long road of development, I recently deployed my first fully automated, ML-driven system.
+
+The trading results aren't the point of this post. I'm here to talk about the steps I've taken to solve the fundamental problem of getting a machine learning model to perform in a live en...",Project,self.MachineLearning,
+[D] Looking for a Reinforcement Learning Environment for a General-Purpose Desktop Agent,9,1.0,8,Limp_Food9236,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1oa9vgl/d_looking_for_a_reinforcement_learning/,https://www.reddit.com/r/MachineLearning/comments/1oa9vgl/d_looking_for_a_reinforcement_learning/,1760827880,True,"Hi everyone,
+
+I'm starting a project to train a reinforcement learning agent that can operate a desktop computer, with the eventual goal of performing multi-step tasks. I have a good grasp of RL theory but I'm hitting a wall trying to find a suitable environment to actually train and benchmark my agent.
+
+I'm looking for something that mimics a real desktop interaction, but in a controlled setting. Here’s a breakdown of what I need:
+
+**1. Observation Space:**  
+The observation should be a repr...",Discussion,self.MachineLearning,
+"[P] Open-Source Implementation of ""Agentic Context Engineering"" Paper - Agents that improve by learning from their own execution feedback",30,0.93,5,cheetguy,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1o9yuxv/p_opensource_implementation_of_agentic_context/,https://www.reddit.com/r/MachineLearning/comments/1o9yuxv/p_opensource_implementation_of_agentic_context/,1760801488,True,"We implemented Stanford's recent ""Agentic Context Engineering"" paper (https://arxiv.org/abs/2510.04618) and open-sourced it. 
+
+Instead of fine-tuning, agents curate their own context by learning from execution feedback. Three-agent system (Generator, Reflector, Curator) builds a ""playbook"" of strategies autonomously. 
+
+GitHub: https://github.com/kayba-ai/agentic-context-engine 
+
+Interested in feedback from the community on the approach and implementation!",Project,self.MachineLearning,
+Numerical Analysis [D],9,0.91,10,YogurtclosetThen6260,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1oa8qu4/numerical_analysis_d/,https://www.reddit.com/r/MachineLearning/comments/1oa8qu4/numerical_analysis_d/,1760824908,True,"i have the option to take a numerical analysis class next semester, and I wanted to ask, what are some cool applications of machine learning and deep learning with numerical analysis? And what jobs combine ML and numerical analysis techniques?",Discussion,self.MachineLearning,
+[P]:  Beens-MiniMax:  103M MoE LLM from Scratch,29,1.0,1,External_Mushroom978,MachineLearning,https://www.reddit.com/r/MachineLearning/comments/1o9pnaz/p_beensminimax_103m_moe_llm_from_scratch/,https://www.reddit.com/r/MachineLearning/comments/1o9pnaz/p_beensminimax_103m_moe_llm_from_scratch/,1760773186,True,I built and trained this very simple MoE \[ [Beens-MiniMax](https://github.com/Abinesh-Mathivanan/beens-minimax) \] from scratch in a span of 5 days. You could read more in the [report](https://github.com/Abinesh-Mathivanan/beens-minimax/blob/main/Beens_MiniMax__How_not_to_Build_an_LLM.pdf) here.,Project,self.MachineLearning,
+META: Pandas shouldn't be recommended to a beginner who wants to read a CSV.,870,0.95,130,eyesoftheworld4,learnpython,https://www.reddit.com/r/learnpython/comments/fo6lbo/meta_pandas_shouldnt_be_recommended_to_a_beginner/,https://www.reddit.com/r/learnpython/comments/fo6lbo/meta_pandas_shouldnt_be_recommended_to_a_beginner/,1585062341,True,"I'm on this subreddit a good bit, and any time anyone mentions wanting to work with data, without fail one of the first 
+things that gets brought up is Pandas. I'm not convinced that is the best advice for people who are trying to learn 
+Python, and I wanted to bring it up to the community to see what others thought.
+
+Here's an example block of code that a poster might write if they want to open a CSV and show rows where a 
+column matches a certain value:
+
+    import csv
+    
+    f = open('pa...",,self.learnpython,pandas
+Pandas is so cool,198,0.93,44,Ramakae,learnpython,https://www.reddit.com/r/learnpython/comments/1jti4c1/pandas_is_so_cool/,https://www.reddit.com/r/learnpython/comments/1jti4c1/pandas_is_so_cool/,1744022090,True,"Not a question but wanted to share. Man I love Pandas, currently practising joining data on pandas and wow (learning DS in Python), I can't imagine iterating through rows and columns when there's literally a .loc method or a ignore_index argument just there🙆🏾‍♂️.
+
+I can't lie, it opened my eyes to how amazing and how cool programming is. Showed me how to use a loop in a function to speed up tedious tasks like converting data with strings into pure numerical data with clean data and opened my ...",,self.learnpython,pandas
+Looking for good resources to learn Pandas,21,0.88,24,Cgimme5,learnpython,https://www.reddit.com/r/learnpython/comments/1m813i3/looking_for_good_resources_to_learn_pandas/,https://www.reddit.com/r/learnpython/comments/1m813i3/looking_for_good_resources_to_learn_pandas/,1753354051,True,"Hi everyone,
+
+I have a basic understanding of Python, but I haven’t had many opportunities to use it in practice, since my work has always involved mainly Excel.
+
+I know about how powerful **Pandas** is for data analysis and manipulation, and I’m really interested in learning it properly. I believe it could be a game-changer for my workflow, especially coming from Excel.
+
+Do you have any recommendations for **courses, tutorials, books, or YouTube channels** that teach Pandas in a structured a...",,self.learnpython,pandas
+How to memorize Commands in Pandas ?,6,0.6,26,Ok_Entertainment9143,learnpython,https://www.reddit.com/r/learnpython/comments/1m3ryqx/how_to_memorize_commands_in_pandas/,https://www.reddit.com/r/learnpython/comments/1m3ryqx/how_to_memorize_commands_in_pandas/,1752917004,True,"How can I best remember the syntax of commands in Python, especially in Pandas and Seaborn?  
+Do I need to memorize them, or will I remember them automatically through frequent use?  
+Every time I understand something and want to apply it, I quickly forget how to write it, either I forget the parentheses, use brackets instead, or put a dot where something else should go.",,self.learnpython,pandas
+I'm slightly addicted to lambda functions on Pandas. Is it bad practice?,40,0.91,27,mauimallard,learnpython,https://www.reddit.com/r/learnpython/comments/1l8uq2b/im_slightly_addicted_to_lambda_functions_on/,https://www.reddit.com/r/learnpython/comments/1l8uq2b/im_slightly_addicted_to_lambda_functions_on/,1749653559,True,"I've been using python and Pandas at work for a couple of months, now, and I just realized that using df[df['Series'].apply(lambda x: [conditions]) is becoming my go-to solution for more complex filters. I just find the syntax simple to use and understand. 
+
+My question is, are there any downsides to this? I mean, I'm aware that using a lambda function for something when there may already be a method for what I want is reinventing the wheel, but I'm new to python and still learning all the me...",,self.learnpython,pandas
+I sped up my pandas workflow with 2 lines of code,161,0.97,18,ArabicLawrence,learnpython,https://www.reddit.com/r/learnpython/comments/1jz7t08/i_sped_up_my_pandas_workflow_with_2_lines_of_code/,https://www.reddit.com/r/learnpython/comments/1jz7t08/i_sped_up_my_pandas_workflow_with_2_lines_of_code/,1744659323,True,"Unfortunately, I mostly work with Excel sheets, but Python makes my life easier. Parsing dozens of Excel files can take a long time, so I was looking to learn either Modin or Polars (I know they are great and better, but learning a new API takes time). And then, reading the amazing pandas docs, I saw it:
+
+    sheets: dict[str, DataFrame] = pd.read_excel(
+                file,
+                sheet_name=None,    # load all sheets
+                engine=""calamine"",  # use python-calamine
+      ...",,self.learnpython,pandas
+"How much better is Pandas actually, and is it detrimental to not be implementing it?",105,0.92,52,Extension-Skill652,learnpython,https://www.reddit.com/r/learnpython/comments/1eplz5d/how_much_better_is_pandas_actually_and_is_it/,https://www.reddit.com/r/learnpython/comments/1eplz5d/how_much_better_is_pandas_actually_and_is_it/,1723386235,True,"I've been working a lot recently with gathering and filtering/cleaning data in Python at work and have been trying to add pandas to what I'm doing, but always end up going back to pure Python. Most of what I'm working with is data that I've pulled from somewhere online (usually REST services or through the arcgis module we use a lot), which gets built into a list of dictionaries with all the values I'm interested in. Once I get everything, I usually have some sort of filter or data manipulati...",,self.learnpython,pandas
+How can I detect the content and type of Pandas DataFrame columns dynamically to determine what the columns contain and what types I should change the columns to?,3,0.81,10,anonymouse1717,learnpython,https://www.reddit.com/r/learnpython/comments/1ned1sw/how_can_i_detect_the_content_and_type_of_pandas/,https://www.reddit.com/r/learnpython/comments/1ned1sw/how_can_i_detect_the_content_and_type_of_pandas/,1757607369,True,"For context. For my work, I regularly receive .txt files that contain comma separated data that I need to parse. Unfortunately, I receive these files from an entity outside of our company, so there is no way to change the way the files are formatted or the information in them. 
+
+This brings me to my problem. Each of these .txt files actually contain 3 different datasets worth of information and the datasets may vary in column numbers and column types. I.e., one file may contain 300 comma sepa...",,self.learnpython,pandas
+"I got bored so quick while learning technical libraries, and eventually i give up at most of the time. Like Pandas,Numpy,Mathplotlib and etc.",50,0.83,35,cahit135,learnpython,https://www.reddit.com/r/learnpython/comments/1hwecb4/i_got_bored_so_quick_while_learning_technical/,https://www.reddit.com/r/learnpython/comments/1hwecb4/i_got_bored_so_quick_while_learning_technical/,1736321109,True,Do you guys have any suggestions to beat boredom?,,self.learnpython,pandas
+Can you recommend some courses that will keep me away from being a 'Panda's programmer',197,0.92,110,Accomplished_Food_81,learnpython,https://www.reddit.com/r/learnpython/comments/ptt8e1/can_you_recommend_some_courses_that_will_keep_me/,https://www.reddit.com/r/learnpython/comments/ptt8e1/can_you_recommend_some_courses_that_will_keep_me/,1632396850,True,"Hi random Pythonista's from around the world. 
+
+Coming from VBA Excel, I started learning Python as a Tool for my work where I had to work with relatively large amounts of data. I am at a point now where I can do basically what I want with DataFrame's using Pandas & a small portion of Numpy. 
+
+I work relatively close with IT and whenever I view their Python codes, it's a different language to me entirely (Classes, Main, Init, Self and all the weird stuff)
+
+Do you recommend some type of course...",,self.learnpython,pandas
+Is pandas considered plaintext and persistent storage?,14,0.71,29,HermioneGranger152,learnpython,https://www.reddit.com/r/learnpython/comments/1jr5qzt/is_pandas_considered_plaintext_and_persistent/,https://www.reddit.com/r/learnpython/comments/1jr5qzt/is_pandas_considered_plaintext_and_persistent/,1743749800,True,"A project for my class requires user accounts and user registration. I was thinking of storing all the user info in a dataframe and writing it to an excel spreadsheet after every session so it saves. However, one of the requirements is that passwords aren’t stored in plaintext. Is it considered plaintext if it’s inside a dataframe? And what counts as persistent storage? Does saving the dataframe and uploading it to my GitHub repo count? 
+
+Edit: Thank you to everyone who gave me kind responses...",,self.learnpython,pandas
+From where can I learn Pandas library in 2025 for free?,0,0.38,15,According_Health_483,learnpython,https://www.reddit.com/r/learnpython/comments/1ma7s5i/from_where_can_i_learn_pandas_library_in_2025_for/,https://www.reddit.com/r/learnpython/comments/1ma7s5i/from_where_can_i_learn_pandas_library_in_2025_for/,1753573339,True,"It is not long since I started my ML journey. I finished the first course of Coursera ML for beginners. But then I realised that I neither knew pandas nor sklearn. So looks like, I have to start learning them from scratch. I was searching for a free pandas course on YouTube but there are many and I don't know which one will help me the most. Can you tell me the most popular pandas tutorial availabe on YouTube (or other sources if for free)?",,self.learnpython,pandas
+Exercises to learn Pandas,525,0.99,58,pandaspractice,learnpython,https://www.reddit.com/r/learnpython/comments/k7b25d/exercises_to_learn_pandas/,https://www.reddit.com/r/learnpython/comments/k7b25d/exercises_to_learn_pandas/,1607187632,True,"Hello!
+
+I created a site with exercises tailored for learning Pandas. Going through the exercises teaches you how to use the library and introduces you to the breadth of functionality available.
+
+[https://pandaspractice.com/](https://pandaspractice.com/)
+
+I want to make this site and these exercises as good as possible. If you have any suggestions, thoughts or feedback please let me know so I can incorporate it! 
+
+Hope you find this site helpful to your learning!",,self.learnpython,pandas
+[pandas] Underlying design of summary statistics functions?,2,0.76,3,tree332,learnpython,https://www.reddit.com/r/learnpython/comments/1ny1rnw/pandas_underlying_design_of_summary_statistics/,https://www.reddit.com/r/learnpython/comments/1ny1rnw/pandas_underlying_design_of_summary_statistics/,1759602964,True,"For an assignment, we are mainly redesigning pandas functions and other library functions from scratch, which has been an issue because most tutorials simply introduce the functions such as .describe(), .mean(), .min() without elaborating on the underlying code beyond the arguments such as [https://zerotomastery.io/blog/summary-statistics-in-python/](https://zerotomastery.io/blog/summary-statistics-in-python/),  which is understandable.
+
+and while these functions are not difficult to reason o...",,self.learnpython,pandas
+Pandas vs Polars in Data Quality,5,0.62,18,ennezetaqu,learnpython,https://www.reddit.com/r/learnpython/comments/1l76vm4/pandas_vs_polars_in_data_quality/,https://www.reddit.com/r/learnpython/comments/1l76vm4/pandas_vs_polars_in_data_quality/,1749480826,True,"Hello everyone,
+
+I was wandering if it is better to use Pandas or Polars for data quality analysis, and came to the conclusion that the fact that Polars is based on Arrow makes it better to preserve data while reading it.
+
+But my knowledge is not deep enough to justify this conclusion. Is anyone able to tell me if I'm right or to give me some online guide where I can find an answer?
+
+Thanks.",,self.learnpython,pandas
+[Pandas] How do you handle integers stored as strings when reading a CSV?,8,0.9,16,Hashi856,learnpython,https://www.reddit.com/r/learnpython/comments/1lhb50u/pandas_how_do_you_handle_integers_stored_as/,https://www.reddit.com/r/learnpython/comments/1lhb50u/pandas_how_do_you_handle_integers_stored_as/,1750552481,True,"Edit: Well, I feel dumb. I can't recreate the problem anymore. I may have spent the last two hours trying to solve problem that doesn't exist.
+
+I work with a lot of data where IDs are stored as strings (as they should be). When I do a
+
+`pd.read_csv('file.csv', dtype={'field1': 'string'})`
+
+often, pandas will infer field1, which is a number stored as text, to be a float. It will therefore interpret 123 as 123.00, then convert it to a string as ""123.00""
+
+How do you get around this? Do you use t...",,self.learnpython,pandas
+Pandas Documentation,0,0.5,1,Odd_Communication174,learnpython,https://www.reddit.com/r/learnpython/comments/1o6eqvw/pandas_documentation/,https://www.reddit.com/r/learnpython/comments/1o6eqvw/pandas_documentation/,1760446568,True,"
+Hi is doing the Official User guide enough for learning pandas ",,self.learnpython,pandas
+Issue with reading Spanish data from CSV file with Pandas,1,0.6,5,Ok-Self17,learnpython,https://www.reddit.com/r/learnpython/comments/1nfawg7/issue_with_reading_spanish_data_from_csv_file/,https://www.reddit.com/r/learnpython/comments/1nfawg7/issue_with_reading_spanish_data_from_csv_file/,1757701765,True,"I'm trying to use pandas to create a dictionary of Spanish words and the English translation, but I'm running into an issue where any words that contain accents are not being displayed as excepted. I did some googling and found that it is likely due to character encoding, however,  I've tried setting the encoding to utf-8 and latin1, but neither of those options worked.
+
+  
+Below is my code:
+
+    with open(""./data/es_words.csv"") as words_file:
+        df = pd.read_csv(words_file, encoding=""ut...",,self.learnpython,pandas
+Trying to learn Python + Pandas for data science — any solid free resources?,2,0.57,9,L3zwaDev,learnpython,https://www.reddit.com/r/learnpython/comments/1mjqffi/trying_to_learn_python_pandas_for_data_science/,https://www.reddit.com/r/learnpython/comments/1mjqffi/trying_to_learn_python_pandas_for_data_science/,1754540434,True,"Hey!
+So I’m a front-end dev (React + JS/TS) trying to get into data science, and I’m kinda figuring it out as I go. I’ve got this idea to build a simple movie recommender web app, but I need to get better with Python — especially stuff like Pandas and data handling in general.
+
+If anyone has any good free resources (YouTube, courses, whatever) for learning Python for data science — preferably beginner-friendly and maybe a bit project-based — I’d love to check them out.
+
+Appreciate any help 🙏 ...",,self.learnpython,pandas
+Python is a godsend for work,2085,0.97,159,MyManagerIsAnIdiot,learnpython,https://www.reddit.com/r/learnpython/comments/1h8ljhc/python_is_a_godsend_for_work/,https://www.reddit.com/r/learnpython/comments/1h8ljhc/python_is_a_godsend_for_work/,1733549201,True,"I wanted to just thank the community for everything here.  Its a real tool to have in your arsenal when things get tough.  Today was the first day I put it into use and it was all due to lurking around this subreddit from people helping out others.   
+
+  
+
+
+My manger felt like pissing me off at work right before the weekend today giving me a huge workload come 4PM.  I was tasked to combine a lot of information with multiple excel sheets that were not formatted alike and he wanted a report by ...",,self.learnpython,pandas
+Merging dataframes using Pandas.,5,0.79,15,MeetJoeBlack2k75,learnpython,https://www.reddit.com/r/learnpython/comments/1ldh7ez/merging_dataframes_using_pandas/,https://www.reddit.com/r/learnpython/comments/1ldh7ez/merging_dataframes_using_pandas/,1750146347,True,"Hello Pythoners,
+
+I am newbie in python and hence asking possibly a stupid question. I am looking to download stock data from yahoo Finance(date, open, close, volume etc) for each of the identified stock for 6 months. How can i add/concatenate/append the ticker symbol as a secondary key for each of the rows? ",,self.learnpython,pandas
+Numpy and Pandas / Pandas TA,0,0.44,12,sky018,learnpython,https://www.reddit.com/r/learnpython/comments/1ls8rkw/numpy_and_pandas_pandas_ta/,https://www.reddit.com/r/learnpython/comments/1ls8rkw/numpy_and_pandas_pandas_ta/,1751718534,True,"Hi guys,
+
+I have been stuck in this error and I cannot do anything without the pandas\_ta \`cannot import name 'NaN' from 'numpy'\`
+
+It has been a long time since I've touched py and pandas, which I never had this problem before. Unfortunately, I cannot find any resources to fix the issue with the pandas\_ta for this problem.
+
+I am currently using numpy 2.3.1. I've tried solving the specific file that imports \`NaN\` in pandas\_ta, to no avail it isn't working.
+
+Anyone who has any idea how to...",,self.learnpython,pandas
+Issue reading .xlsx files with pandas and openpyxl,2,0.76,10,CasualComet_,learnpython,https://www.reddit.com/r/learnpython/comments/1m3ataz/issue_reading_xlsx_files_with_pandas_and_openpyxl/,https://www.reddit.com/r/learnpython/comments/1m3ataz/issue_reading_xlsx_files_with_pandas_and_openpyxl/,1752865067,True,"Hello All,
+
+I'm trying to read some .xlsx files into a dataframe using pandas and openpyxl. It gives Fill() takes no arguments error. The same file when opened and saved again , nothing much just open and click save , it works fine. Not sure if this is due to our company's protection policy or if the excel is actually corrupt.. if it's corrupt it shouldn't work either maybe. Anyway while saving it we do enable the file for editing manually and then save it which makes me think it's the permis...",,self.learnpython,pandas
+Pandas - Trying to associate the average number of each group and then add them in a column.,1,0.67,1,blackgarliccookie,learnpython,https://www.reddit.com/r/learnpython/comments/1nfk4ac/pandas_trying_to_associate_the_average_number_of/,https://www.reddit.com/r/learnpython/comments/1nfk4ac/pandas_trying_to_associate_the_average_number_of/,1757724930,True,"Sorry if the title was unclear, it's for me hard to describe. 
+
+Anyway, I have age and title. I already have a dataframe that contains the title and average age of each title. What I want to do with it is put that in a column attached to my main dataframe, where the average age gets associated to whoever has that title. So if someone is titled Miss, and Miss has an average age of 35, 35 will be in the column. 
+
+Quite frankly I have no idea how to do this. I am taking a class in pandas/python ...",,self.learnpython,pandas
+Error 13 Permission denied Pandas,5,0.86,5,BlackSpaceRanger,learnpython,https://www.reddit.com/r/learnpython/comments/1mpub5f/error_13_permission_denied_pandas/,https://www.reddit.com/r/learnpython/comments/1mpub5f/error_13_permission_denied_pandas/,1755158334,True,"My first time starting a project from Stratscratch and I'm very new to Python. I downloaded a data set zip file from the site and I'm trying to access it via Python but keep getting permission denied error. I googled solutions and tried moving the file out of onedrive, changing security permissions, and I'm running PowerShell as Administrator. This is the code: `df=pd.read_csv(r'C:\Projects\datasets', compression='bz2'`) Any suggestions would be greatly appreciated! ",,self.learnpython,pandas
+"Why do I need Anaconda if I can install LangChain, Pandas, and everything else with pip?",47,0.89,27,umen,learnpython,https://www.reddit.com/r/learnpython/comments/1hjbo1t/why_do_i_need_anaconda_if_i_can_install_langchain/,https://www.reddit.com/r/learnpython/comments/1hjbo1t/why_do_i_need_anaconda_if_i_can_install_langchain/,1734793689,True,"Hello everyone,
+
+I've recently started working with Generative AI and am using LangChain, Pandas, and FAISS.
+
+The previous data scientist (I’m not a data scientist; I’m a developer) installed Anaconda and used these libraries. From what I see, if I can simply install and use these libraries with `pip`, why would I need Anaconda?
+
+To me, it seems like Anaconda adds an extra layer of complexity. Can someone please explain the benefits of using Anaconda?
+
+Thanks!",,self.learnpython,pandas
+How do I learn Pandas matplotlib and NumPy effectively,18,0.77,13,hridayesh_gaming1111,learnpython,https://www.reddit.com/r/learnpython/comments/1kv1927/how_do_i_learn_pandas_matplotlib_and_numpy/,https://www.reddit.com/r/learnpython/comments/1kv1927/how_do_i_learn_pandas_matplotlib_and_numpy/,1748175736,True,"I have been doing a lot of videos, tutorials and while doing them im fine but 15-20 minutes later its like i never did the course. How can  I learn these libraries without instantly forgetting them, Iam very burnout because of this ",,self.learnpython,pandas
+Pandas returns less rows that the actual file,2,0.63,2,bbohhh,learnpython,https://www.reddit.com/r/learnpython/comments/1n2lrfz/pandas_returns_less_rows_that_the_actual_file/,https://www.reddit.com/r/learnpython/comments/1n2lrfz/pandas_returns_less_rows_that_the_actual_file/,1756409309,True,"I have downloaded the MNIST digit recognizer file for an assignment due on Monday, and one of the things asked is to check the shape, which should be
+
+    (42000, 785)                                                                                                                                                              
+
+However, when using my code, I get a different shape: (1142, 785), so less rows. I used the same exact code as my professor (as this was also asked), from the same exact ...",,self.learnpython,pandas
+Comparing JSON with data in a pandas dataframe,2,0.76,8,Dazzling-Tonight-665,learnpython,https://www.reddit.com/r/learnpython/comments/1m18q1f/comparing_json_with_data_in_a_pandas_dataframe/,https://www.reddit.com/r/learnpython/comments/1m18q1f/comparing_json_with_data_in_a_pandas_dataframe/,1752660506,True,"I’m a bit stuck and needing a nudge in the right direction from experienced devs. 
+
+Here’s a sample JSON response from the Aviation Weather Center:
+
+[
+  {
+    ""tafId"": 22314752,
+    ""icaoId"": ""VTBS"",
+    ""dbPopTime"": ""2025-07-16 05:35:20"",
+    ""bulletinTime"": ""2025-07-16 05:00:00"",
+    ""issueTime"": ""2025-07-16 05:00:00"",
+    ""validTimeFrom"": 1752645600,
+    ""validTimeTo"": 1752753600,
+    ""rawTAF"": ""TAF VTBS 160500Z 1606/1712 19008KT 9999 FEW020 TEMPO 1609/1613 -TSRA FEW018CB SCT020 BKN080"",
+ ...",,self.learnpython,pandas
+"Working with Datasets/Pandas, is there any way to find out what the acronyms for columns mean?",0,0.43,8,Key_Honeybee_625,learnpython,https://www.reddit.com/r/learnpython/comments/1m2c65i/working_with_datasetspandas_is_there_any_way_to/,https://www.reddit.com/r/learnpython/comments/1m2c65i/working_with_datasetspandas_is_there_any_way_to/,1752769782,True,"For instance, one column in the dataset would say object and I can guess what that means pretty clearly. But another is just labeled Q, and not knowing what the data is referring to makes data science a lot harder.
+
+I'm just wondering if the string for the actual name of the column is involved in the code/dataset in a way that I can retrieve it, or if I have to resort to context clues :)",,self.learnpython,pandas
+"Pandas, why the hype?",408,0.88,210,gonna_get_tossed,datascience,https://www.reddit.com/r/datascience/comments/1k3nxj7/pandas_why_the_hype/,https://www.reddit.com/r/datascience/comments/1k3nxj7/pandas_why_the_hype/,1745159796,True,"I'm an R user and I'm at the point where I'm not really improving my programming skills all that much, so I finally decided to learn Python in earnest. I've put together a few projects that combine general programming, ML implementation, and basic data analysis. And overall, I quite like python and it really hasn't been too difficult to pick up. And the few times I've run into an issue, I've generally blamed it on R (e.g . the day I learned about mutable objects was a frustrating one). Howeve...",Discussion,self.datascience,pandas
+Fuck pandas!!! [Rant],493,0.72,328,SnooLobsters8778,datascience,https://www.kaggle.com/code/sudalairajkumar/getting-started-with-python-datatable,https://www.reddit.com/r/datascience/comments/1i0x2pm/fuck_pandas_rant/,1736825814,False,"I have been a heavy R user for 9 years and absolutely love R. I can write love letters about the R data.table package. It is fast. It is efficient. it is beautiful. A coder’s dream.
+ 
+But of course all good things must come to an end and given the steady decline of R users decided to switch to python to keep myself relevant.
+
+And let me tell you I have never seen a stinking hot pile of mess than pandas. Everything is 10 layers of stupid? The syntax makes me scream!!!!!! There is no coherence ...",Discussion,kaggle.com,pandas
+Is Pandas Getting Phased Out?,338,0.89,241,pansali,datascience,https://www.reddit.com/r/datascience/comments/1gwrd0a/is_pandas_getting_phased_out/,https://www.reddit.com/r/datascience/comments/1gwrd0a/is_pandas_getting_phased_out/,1732225824,True,"Hey everyone,
+
+I was on statascratch a few days ago, and I noticed that they added a section for Polars. Based on what I know, Polars is essentially a better and more intuitive version of Pandas (correct me if I'm wrong!). 
+
+With the addition of Polars, does that mean Pandas will be phased out in the coming years? 
+
+And are there other alternatives to Pandas that are worth learning? ",Discussion,self.datascience,pandas
+"For any python & pandas users out there, here's a free tool to visualize your dataframes",2243,0.99,190,aschonfe,datascience,https://v.redd.it/2u0skf49j4i41,https://www.reddit.com/r/datascience/comments/f6xk72/for_any_python_pandas_users_out_there_heres_a/,1582224233,False,,Tooling,v.redd.it,pandas
+Minor pandas rant,582,0.97,87,Ciasteczi,datascience,https://i.redd.it/o90cjqrbj52e1.jpeg,https://www.reddit.com/r/datascience/comments/1gw3f0a/minor_pandas_rant/,1732150021,False,"As a dplyr simp, I so don't get pandas safety and reasonableness choices.
+
+You try to assign to a column of a df2 = df1[df1['A']> 1] you get a ""setting with copy warning"".
+
+
+BUT
+
+accidentally assign a column of length 69 to a data frame with 420 rows and it will eat it like it's nothing, if only index is partially matching.
+
+You df.groupby? Sure, let me drop nulls by default for you, nothing interesting to see there!
+
+You df.groupby.agg? Let me create not one, not two, but THREE levels of col...",Discussion,i.redd.it,pandas
+"Happy Halloween, Pandas! 🎃🤓",2087,0.97,58,aplarsen,datascience,https://i.redd.it/g2ukf6e2o6x91.jpg,https://www.reddit.com/r/datascience/comments/yik3k5/happy_halloween_pandas/,1667240441,False,,Fun/Trivia,i.redd.it,pandas
+"Python pandas creator Wes McKinney has joined data science company Posit as a principal architect, signaling the company's efforts to play a bigger role in the Python universe as well as the R ecosystem",610,0.98,116,Stauce52,datascience,https://www.infoworld.com/article/3709932/python-pandas-creator-wes-mckinney-joins-posit.html,https://www.reddit.com/r/datascience/comments/17phari/python_pandas_creator_wes_mckinney_has_joined/,1699315724,False,,Coding,infoworld.com,pandas
+"Jupyter notebook has grown into a 200+ line pipeline for a pandas heavy, linear logic, processor. What’s the smartest way to refactor without overengineering it or breaking the ‘run all’ simplicity?",134,0.91,80,Proof_Wrap_2150,datascience,https://www.reddit.com/r/datascience/comments/1ko8j3v/jupyter_notebook_has_grown_into_a_200_line/,https://www.reddit.com/r/datascience/comments/1ko8j3v/jupyter_notebook_has_grown_into_a_200_line/,1747421084,True,"I’m building an analysis that processes spreadsheets, transforms the data, and outputs HTML files. 
+
+It works, but it’s hard to maintain. 
+
+I’m not sure if I should start modularizing into scripts, introduce config files, or just reorganize inside the notebook. Looking for advice from others who’ve scaled up from this stage. It’s easy to make it work with new files, but I can’t help but wonder what the next stage looks like? 
+
+EDIT: Really appreciate all the thoughtful replies so far. I’ve ma...",Projects,self.datascience,pandas
+Pandas is so cool,588,0.96,187,happysealND,datascience,https://www.reddit.com/r/datascience/comments/iyxz7o/pandas_is_so_cool/,https://www.reddit.com/r/datascience/comments/iyxz7o/pandas_is_so_cool/,1600956679,True,"I've just learned numpy and moved onto pandas it's actually so cool, pulling the data from a website and putting into a csv was just really fluid and being able to summarise data using one command came as quite a shock. Having used excel all my life I didn't realise how powerful python can be.",Fun/Trivia,self.datascience,pandas
+"Pandas 2.0 is going live, and Apache Arrow will replace Numpy, and that's a great thing!",668,0.98,73,forbiscuit,datascience,https://www.reddit.com/r/datascience/comments/12dbhsg/pandas_20_is_going_live_and_apache_arrow_will/,https://www.reddit.com/r/datascience/comments/12dbhsg/pandas_20_is_going_live_and_apache_arrow_will/,1680763026,True,"With Pandas 2.0, no existing code should break and everything will work as is. However, the primary update that is subtle is the use of Apache Arrow API vs. Numpy for managing and ingesting data (using methods like read\_csv, read\_sql, read\_parquet, etc). This new integration is hope to increase efficiency in terms of memory use and improving the usage of data types such string,  datatime, and categories.  
+
+
+>Python data structures (lists, dictionaries, tuples, etc) are very slow and can't...",Tooling,self.datascience,pandas
+"If you could ask the creators of pandas for one additional feature, what would it be?",144,0.94,160,Outrageous_Hawk4549,datascience,https://www.reddit.com/r/datascience/comments/14rob7v/if_you_could_ask_the_creators_of_pandas_for_one/,https://www.reddit.com/r/datascience/comments/14rob7v/if_you_could_ask_the_creators_of_pandas_for_one/,1688593269,True,,Discussion,self.datascience,pandas
+"What was your ""light bulb"" moment when learning Pandas?",161,0.9,139,slashded,datascience,https://www.reddit.com/r/datascience/comments/15d662n/what_was_your_light_bulb_moment_when_learning/,https://www.reddit.com/r/datascience/comments/15d662n/what_was_your_light_bulb_moment_when_learning/,1690673285,True,"I have a beginner's understanding of Python (loops and statements) and would consider myself an intermediate at SQL, so I wanted to move onto learning Pandas.
+
+But, damn, this shit is much harder than I thought it would be...
+
+For all of you who are well-versed with Pandas, did you ever have a breakthrough moment when learning? Or was it always difficult?
+
+&#x200B;
+
+&#x200B;",Discussion,self.datascience,pandas
+"The ""method chaining"" is the best way to write Pandas code that is clear to design, read, maintain and debug: here is a CheatSheet from my practical experience after more than one year of using it for all my projects",252,0.94,41,danieleoooo,datascience,https://github.com/danieleongari/pandas-chaining-ninja,https://www.reddit.com/r/datascience/comments/1h7j7ry/the_method_chaining_is_the_best_way_to_write/,1733431204,False,,Education,github.com,pandas
+"When Pandas.read_csv ""helpfully"" guesses the data type of each column",1119,0.97,23,dumplechan,datascience,https://i.redd.it/tppr6p77tqka1.png,https://www.reddit.com/r/datascience/comments/11ddeft/when_pandasread_csv_helpfully_guesses_the_data/,1677508776,False,,Fun/Trivia,i.redd.it,pandas
+Is Pandas still one of the most popular data science libraries today? What are your thoughts?,75,0.79,145,Data_Nerd1979,datascience,https://www.reddit.com/r/datascience/comments/165jquq/is_pandas_still_one_of_the_most_popular_data/,https://www.reddit.com/r/datascience/comments/165jquq/is_pandas_still_one_of_the_most_popular_data/,1693413630,True,,Discussion,self.datascience,pandas
+Preview video of bamboolib - a UI for pandas. Stop googling pandas commands,332,0.99,179,kite_and_code,datascience,https://www.reddit.com/r/datascience/comments/cjbr09/preview_video_of_bamboolib_a_ui_for_pandas_stop/,https://www.reddit.com/r/datascience/comments/cjbr09/preview_video_of_bamboolib_a_ui_for_pandas_stop/,1564409428,True,"Hi,
+
+a couple of friends and I are currently thinking if we should create bamboolib.
+
+Please check out the **short product vision video** and let us know what you think:
+
+[**https://youtu.be/yM-j5bY6cHw**](https://youtu.be/yM-j5bY6cHw)
+
+&#x200B;
+
+The main benefits of bamboolib will be:
+
+* you can **manipulate your pandas df via a user interface** within your Jupyter Notebook
+* you get **immediate feedback** on all your data transformations
+* you can **stop googling for pandas commands**
+* you...",Tooling,self.datascience,pandas
+From NumPy to Arrow: How Pandas 2.0 is Changing Data Processing for the Better,297,0.98,77,sspaeti,datascience,https://airbyte.com/blog/pandas-2-0-ecosystem-arrow-polars-duckdb/,https://www.reddit.com/r/datascience/comments/11jzh88/from_numpy_to_arrow_how_pandas_20_is_changing/,1678110637,False,,Education,airbyte.com,pandas
+PyGWalker: Turn your Pandas Dataframe into a Tableau-style UI for Visual Analysis,474,0.99,50,Sudden_Beginning_597,datascience,https://www.reddit.com/r/datascience/comments/117bptb/pygwalker_turn_your_pandas_dataframe_into_a/,https://www.reddit.com/r/datascience/comments/117bptb/pygwalker_turn_your_pandas_dataframe_into_a/,1676909557,True,"Hey, guys. We have made a plugin that turns your pandas data frame into a tableau-style component. It allows you to explore the data frame with an easy drag-and-drop UI.
+
+You can use PyGWalker in Jupyter, Google Colab, or even Kaggle Notebook to easily explore your data and generate interactive visualizations.
+
+Here are some links to check it out:
+
+The Github Repo: [https://github.com/Kanaries/pygwalker](https://github.com/Kanaries/pygwalker)
+
+Use PyGWalker in Kaggle: [https://www.kaggle.com/...",Projects,self.datascience,pandas
+Why am I not getting interviews?,782,0.93,401,WhiteRaven_M,datascience,https://i.redd.it/gh451zoplq4f1.png,https://www.reddit.com/r/datascience/comments/1l2g1rh/why_am_i_not_getting_interviews/,1748967304,False,,Career | US,i.redd.it,pandas
+The pandas MemoryError,18,0.82,39,SingerEast1469,datascience,https://www.reddit.com/r/datascience/comments/1hb0kqh/the_pandas_memoryerror/,https://www.reddit.com/r/datascience/comments/1hb0kqh/the_pandas_memoryerror/,1733833468,True,"I’ve been programming for data analysis for about 5 years, but I’ve never found an easy way to handle this. 
+
+With my old beat up Dell Latitude, anything over ~100,000 rows if a sparse df tends to throw the dreaded Memory Error, specifically with functions like get dummies, indexing, merging, etc. 
+
+My questions are:
+1. Will a better laptop help with this?
+2. Are there any modules or helper functions for this out there? 
+3. How much does using colab help with this problem? Trying to avoid pay...",Discussion,self.datascience,pandas
+Is Numpy always more efficient than Pandas? And how much should we rely on Python anyway?,197,0.9,95,rotterdamn8,datascience,https://www.reddit.com/r/datascience/comments/rdao7c/is_numpy_always_more_efficient_than_pandas_and/,https://www.reddit.com/r/datascience/comments/rdao7c/is_numpy_always_more_efficient_than_pandas_and/,1639148879,True,"Hi all, intermediate programmer here, pondering script efficiency and how to improve ETLs.
+
+Like many data programmers, I've been using Pandas for awhile. But some of you mentioned here that Pandas has too much overhead and eats up memory compared to NumPy.
+
+I also worked with a software engineer this year who felt strongly that people should learn NumPy properly and not use Pandas as a crutch.
+
+I'd love to hear more views and considerations on this. I've been developing ETLs for low-volume d...",Discussion,self.datascience,pandas
+Pandas 2.0 (with pyarrow) vs Pandas 1.3 - Performance comparison,274,0.96,40,santiagobasulto,datascience,https://medium.com/@santiagobasulto/pandas-2-0-performance-comparison-3f56b4719f58,https://www.reddit.com/r/datascience/comments/12fgygg/pandas_20_with_pyarrow_vs_pandas_13_performance/,1680946405,False,,Discussion,medium.com,pandas
+What do you do in SQL vs Pandas?,66,0.94,64,Alucard2051,datascience,https://www.reddit.com/r/datascience/comments/17eot80/what_do_you_do_in_sql_vs_pandas/,https://www.reddit.com/r/datascience/comments/17eot80/what_do_you_do_in_sql_vs_pandas/,1698079172,True,"My work primarily stores data in a full databases. Pandas has a lot of similar functionality to SQL in regards to the ability to group data and preform calculations, even being able to take full on SQL queries to import data. Do you guys do all your calculations in the query itself, or in python after the data has been imported? What about with grouping data?",Tools,self.datascience,pandas
+What are the manipulation techniques any aspiring Data Science should master in Pandas as part of their daily workflow?,316,0.96,71,universalprogenote,datascience,https://www.reddit.com/r/datascience/comments/gczle5/what_are_the_manipulation_techniques_any_aspiring/,https://www.reddit.com/r/datascience/comments/gczle5/what_are_the_manipulation_techniques_any_aspiring/,1588544818,True,I am a beginner-intermediate level Pandas user. Trying to prioritize the vast breadth of functions available for Pandas. What should an aspiring data scientist focus on for practicality's sake?,Career,self.datascience,pandas
+"Anyone using FireDucks, a drop in replacement for pandas with ""massive"" speed improvements?",0,0.49,31,boru9,datascience,https://www.reddit.com/r/datascience/comments/1gscf35/anyone_using_fireducks_a_drop_in_replacement_for/,https://www.reddit.com/r/datascience/comments/1gscf35/anyone_using_fireducks_a_drop_in_replacement_for/,1731721078,True,"I've been seeing articles about FireDucks saying that it's a drop in replacement for pandas with ""massive"" speed increases over pandas and even polars in some benchmarks. Wanted to check in with the group here to see if anyone has hands on experience working with FireDucks. Is it too good to be true?",Tools,self.datascience,pandas
+Comprehensive Python Cheatsheet now also covers Pandas,662,0.99,32,pizzaburek,datascience,https://gto76.github.io/python-cheatsheet/#pandas,https://www.reddit.com/r/datascience/comments/hhfqbl/comprehensive_python_cheatsheet_now_also_covers/,1593356083,False,,Education,gto76.github.io,pandas
+SQL vs Pandas,106,0.81,97,C_BearHill,datascience,https://www.reddit.com/r/datascience/comments/ndkwgm/sql_vs_pandas/,https://www.reddit.com/r/datascience/comments/ndkwgm/sql_vs_pandas/,1621158590,True,"Why bother mastering SQL when you can simply extract all of the data using a few basic SELECT commands and then do all of the data wrangling in pandas? 
+
+Is there something important I’m missing by relying on pandas for data handling and manipulation?",Discussion,self.datascience,pandas
+Favourite piece of code 🤣,2840,0.98,103,nobody_undefined,datascience,https://i.redd.it/jqvbe1ycrcod1.jpeg,https://www.reddit.com/r/datascience/comments/1feyx6h/favourite_piece_of_code/,1726135600,False,What's your favourite one line code.,Discussion,i.redd.it,pandas
+Memory Profiling for Pandas,395,0.97,22,thapasaan,datascience,https://github.com/reloadware/reloadium,https://www.reddit.com/r/datascience/comments/z1pk16/memory_profiling_for_pandas/,1669110391,False,,Projects,reddit.com,pandas
+Would anyone be interested in a SQL to Pandas translator?,241,0.94,65,FullRaise,datascience,https://www.reddit.com/r/datascience/comments/i30dz3/would_anyone_be_interested_in_a_sql_to_pandas/,https://www.reddit.com/r/datascience/comments/i30dz3/would_anyone_be_interested_in_a_sql_to_pandas/,1596472835,True,"I know there's already an sqllite3 library for python that creates a temp db to run queries on CSVs, so I'm checking if an SQL to Pandas tool would actually be useful for data scientists, especially those who find SQL far more intuitive (like me)",Discussion,self.datascience,pandas
