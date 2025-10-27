@@ -1,11 +1,8 @@
 # Example: simple Reddit API test
 import praw
-print("Hello Reddit!")
 
-%%writefile .env.example
-CLIENT_ID=your_client_id
-CLIENT_SECRET=your_client_secret
-USER_AGENT=your_user_agent
+
+
 
 %%writefile requirements.txt
 praw==7.8.1
