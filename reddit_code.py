@@ -1,3 +1,4 @@
+# This code is for the Reddit data scraping
 import os
 import time
 from typing import List, Dict, Any, Optional
@@ -171,4 +172,120 @@ if __name__ == "__main__":
         by_sr = df.groupby("subreddit").size().sort_values(ascending=False)
         print("\n[SUMMARY] Rows by subreddit:\n" + by_sr.to_string())
     print("\n[DONE] Pipeline complete.")
+
+# This code for the creating workspace in google Drive
+
+from google.colab import drive
+drive.mount('/content/drive')
+
+# Navigate to your Drive root
+%cd /content/drive/MyDrive/
+
+# Create your main assignment folder (only if it doesn’t exist)
+!mkdir -p assignment_folder
+
+# Go inside the folder
+%cd assignment_folder
+
+# Create the necessary files
+!touch reddit_code.py
+!touch reddit.env
+!touch requirements.txt
+!touch README.md
+
+    # This code is for the content writing
+    %%writefile .gitignore
+# Ignore sensitive environment files
+reddit.env
+
+# Ignore Python virtual environment folders and caches
+venv/
+__pycache__/
+
+    %%writefile reddit.env
+# Reddit API Credentials (Template)
+REDDIT_CLIENT_ID = "YOUR_CLIENT_ID_HERE"
+REDDIT_CLIENT_SECRET = "YOUR_CLIENT_SECRET_HERE"
+REDDIT_USER_AGENT = "YOUR_USER_AGENT_HERE"
+
+%%writefile requirements.txt
+praw
+pandas
+python-dotenv
+
+%%writefile README.md
+# Reddit Sentiment Analysis on Netflix Pricing Discussions
+
+# Project Overview
+This project uses the **Reddit API (PRAW)** to collect real user discussions about **Netflix pricing and subscription plans** from various subreddits.
+The data is then prepared for **sentiment analysis** and **topic modeling** to understand how users perceive Netflix’s pricing compared to other streaming platforms.
+
+---
+
+# Objectives
+- Collect Reddit posts from Netflix-related and streaming subreddits
+- Analyze user sentiments (positive, neutral, negative) toward Netflix pricing
+- Identify major discussion themes using topic modeling (LDA / BERTopic)
+- Compare pricing opinions across different streaming platforms
+
+---
+
+# Tools & Libraries
+- **Python**
+- **PRAW** – Reddit API wrapper
+- **pandas** – Data manipulation
+- **python-dotenv** – Secure environment variables
+- **NLTK / VADER / TextBlob** – Sentiment analysis
+- **matplotlib / seaborn** – Visualization
+- **Tableau / Power BI** – Dashboard visualization (future step)
+
+---
+
+# Files in This Repository
+| File | Description |
+|------|--------------|
+| `reddit_code.py` | Python script to collect Reddit posts |
+| `reddit.env` | Reddit API credentials (ignored by `.gitignore`) |
+| `requirements.txt` | Required Python packages |
+| `README.md` | Project overview and instructions |
+| `.gitignore` | Prevents sensitive files from uploading to GitHub |
+| `reddit_data_sample.csv` | Example collected dataset |
+
+---
+
+# How to Run
+1. Install required packages
+   ```bash
+   pip install -r requirements.txt
+    
+# This code is for the connection Colab and Github
+
+    !git config --global user.name "Dinesh Acharya"
+!git config --global user.email "deeeneshaaacharya@gmail.com"
+
+# Ensure you are in your assignment directory
+%cd /content/drive/MyDrive/assignment_folder/
+
+# Initialize a new Git repository
+!git init
+
+# Stage all your files for the commit
+!git add .
+
+# Commit the files with a message
+!git commit -m "Initial commit from Google Colab"
+
+from google.colab import userdata
+
+github_token = userdata.get('GITHUB_PAT')
+username = "deeeneshaaacharya-hub"
+repo_name = "Reddit_API_Assignment "
+
+# Constructing the remote URL with authentication
+remote_url = f"https://{username}:{github_token}@github.com/{username}/{repo_name}.git"
+
+# Addding the remote, set the main branch, and push the code
+!git remote add origin {remote_url}
+!git branch -M main
+!git push -u origin main
 
