@@ -1,33 +1,21 @@
-
-"""
-Reddit Data Pipeline (PRAW + pandas)
-- Loads credentials from reddit.env (or .env)
-- Task 1: Fetch hot posts from multiple subreddits
-- Task 2: Keyword-based search across subreddits
-- Task 3: Export cleaned, deduplicated CSV (reddit_data.csv)
-"""
-
 import os
 import time
 from typing import List, Dict, Any, Optional
 import pandas as pd
-# I have used try block
+
+# Using try block
 try:
     from dotenv import load_dotenv
 except Exception:
     load_dotenv = None
 
-# installing praw for redit
+# Installing praw for redit
 import praw
 
 # Config & Authentication
 def load_credentials(env_paths: Optional[List[str]] = None) -> Dict[str, str]:
-    """
-    Load credentials from environment files.
-    Tries each path in order; first one found is used.
-    Expected keys:
-      REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT
-    """
+
+
     env_paths = env_paths or ["/content/reddit.env"]
 
     # Load the first env file that exists (if python-dotenv is available)
@@ -64,8 +52,7 @@ def make_reddit(creds: Dict[str, str]) -> praw.Reddit:
         client_secret=creds["client_secret"],
         user_agent=creds["user_agent"],
         check_for_async=False,   # avoid asyncio warnings
-        ratelimit_seconds=5
-    )
+        ratelimit_seconds=5)
     return reddit
 
 # These will have predictors in asking in question
@@ -184,3 +171,4 @@ if __name__ == "__main__":
         by_sr = df.groupby("subreddit").size().sort_values(ascending=False)
         print("\n[SUMMARY] Rows by subreddit:\n" + by_sr.to_string())
     print("\n[DONE] Pipeline complete.")
+
